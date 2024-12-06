@@ -1,0 +1,300 @@
+.header {
+    margin-bottom: 15px;
+    position: fixed;
+    /* left:40%; */
+    top: 8%;
+    width: 100%;
+}
+
+marquee {
+    background: rgba(0, 255, 0, 0.2);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    height: 18px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    line-height: 16px;
+}
+
+a.scroll {
+    color: yellow;
+}
+
+.container {
+    position: fixed;
+    left: 25%;
+    width: 50%;
+    top: 24%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    color: white;
+    padding: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    height: 100%;
+}
+
+.parent a {
+    position: relative; /* Needed for tooltips */
+    display: flex; /* Center content */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Default button background */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+/* Tooltip styling */
+.parent a::before {
+    content: attr(title); /* Use the title attribute for tooltip text */
+    position: absolute;
+    bottom: 105%; /* Bring the tooltip closer to the button */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+    color: white; /* Tooltip text color */
+    padding: 10px 15px; /* Larger padding for better visibility */
+    border: 2px solid white; /* Lime-colored border */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Larger font size */
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    pointer-events: none; /* Prevent hover issues */
+}
+
+.parent a:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -2px); /* Reduced lift effect */
+}
+
+.parent a:hover {
+    box-shadow: 6px 6px 15px rgba(255, 255, 255, 0.4), -6px -6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.parent a:active {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.6), inset -2px -2px 5px rgba(255, 255, 255, 0.2);
+    transform: translateY(2px);
+}
+
+a.div1:hover,
+a.div2:hover,
+a.div4:hover {
+    background: rgba(0, 255, 0, 0.3);
+    border: 2px solid rgba(0, 255, 0, 0.8);
+    box-shadow: 6px 6px 15px rgba(0, 255, 0, 0.8), -6px -6px 15px rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    transition: linear 0.2s;
+}
+
+a.div1:active,
+a.div2:active,
+a.div4:active {
+    background: rgba(0, 255, 0, 0.1);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.6), inset -2px -2px 5px rgba(0, 255, 0, 0.2);
+    transform: translateY(2px);
+    transition: linear 0.2s;
+}
+
+a.div3,
+a.div5,
+a.div6,
+a.div9,
+a.div10.
+a.div11 {
+    background: rgba(0255, 0, 0, 0.1);
+    border: 1px solid rgba(255, 0, 0, 0.8);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.1);
+}
+
+a.div3:hover,
+a.div5:hover,
+a.div6:hover,
+a.div9:hover,
+a.div10:hover,
+a.div11:hover {
+    background: rgba(0255, 0, 0, 0.3);
+    border: 2px solid rgba(255, 0, 0, 0.8);
+    box-shadow: 6px 6px 15px rgba(255, 0, 0, 0.4), -6px -6px 15px rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+    transition: linear 0.2s;
+    cursor: not-allowed;
+}
+
+a.div3:active,
+a.div5:active,
+a.div6:active,
+a.div9:active,
+a.div10:active,
+a.div11:active {
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.6), inset -2px -2px 5px rgba(255, 0, 0, 0.2);
+    transform: translateY(2px);
+    transition: linear 0.2s;
+}
+
+a.div7,
+a.div8,
+a.div12,
+a.div13,
+a.div14  {
+    background: rgba(171, 3, 255, 0.1);
+    border: 1px solid rgba(171, 3, 255, 0.8);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), -4px -4px 10px rgba(255, 255, 255, 0.1);
+}
+
+a.div7:hover,
+a.div8:hover,
+a.div12:hover,
+a.div13:hover,
+a.div14:hover {
+    background: rgba(171, 3, 255, 0.4);
+    border: 2px solid rgba(171, 3, 255, 0.8);
+    box-shadow: 6px 6px 15px rgba(171, 3, 255, 0.6), -6px -6px 15px rgba(171, 3, 255, 0.2);
+    transform: translateY(-2px);
+    transition: linear 0.2s;
+}
+
+a.div7:active,
+a.div8:active,
+a.div12:active,
+a.div13:active,
+a.div14:active {
+    background: rgba(171, 3, 255, 0.3);
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.6), inset -2px -2px 5px rgba(171, 3, 255, 0.2);
+    transform: translateY(2px);
+    transition: linear 0.2s;
+}
+
+/* Grid-area assignments */
+.div1 {
+    grid-area: 1 / 1 / 3 / 3;
+}
+.div2 {
+    grid-area: 1 / 3 / 3 / 5;
+}
+.div3 {
+    grid-area: 1 / 5 / 3 / 7;
+    cursor: not-allowed;
+}
+.div4 {
+    grid-area: 3 / 1 / 5 / 3;
+}
+.div5 {
+    grid-area: 3 / 3 / 5 / 5;
+}
+.div6 {
+    grid-area: 3 / 5 / 5 / 7;
+    cursor: not-allowed;
+}
+.div7 {
+    grid-area: 7 / 1 / 9 / 4;
+}
+.div8 {
+    grid-area: 7 / 4 / 9 / 7;
+}
+.div9 {
+    grid-area: 5 / 1 / 7 / 3;
+    cursor: not-allowed;
+}
+.div10 {
+    grid-area: 5 / 3 / 7 / 5;
+    cursor: not-allowed;
+}
+.div11 {
+    grid-area: 5 / 5 / 7 / 7;
+    cursor: not-allowed;
+}
+.div12 {
+    grid-area: 9 / 1 / 10 / 3;
+    cursor: not-allowed;
+}
+.div13 {
+    grid-area: 9 / 3 / 10 / 5;
+    cursor: not-allowed;
+}
+.div14 {
+    grid-area: 9 / 5 / 10 / 7;
+    cursor: not-allowed;
+}
+
+@media (min-width: 1301px) {
+
+}
+
+@media (min-width: 1200px and max-width: 1300px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 90%;
+        left: 10%;
+    }
+}
+
+@media (min-width:576px) and (max-width: 767px) {
+    .container {
+        width: 80%;
+        left: 10%;
+    }
+    .parent {
+        width: 80%;
+        left: 10%;
+    }
+}
+
+@media (min-width: 386px) and (max-width: 575px) {
+    .container {
+        position: relative;
+        width: 50%;
+        left: 50%;
+        height:80%;
+        top: 25%;
+    }
+
+}
+
+@media (min-width: 345px) and (max-width: 385px) {
+    .container {
+        width: 80%;
+        left: 10%;
+        height:80%;
+        top: 10%;
+    }
+
+}
+
+@media (max-width: 348px) {
+    .container {
+        width: 80%;
+        left: 10%;
+        height:80%;
+        top: 10%;
+    }
+
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+
+  <meta charset="UTF-8">
+  <script>
+    (function checkAuthentication() {
+      const isAuthenticated = localStorage.getItem("authenticated") === "true";
+      const authTime = parseInt(localStorage.getItem("authTime"), 10);
+      const sessionDuration = 2 * 60 * 60 * 1000;
+
+      if (!isAuthenticated || !authTime || Date.now() - authTime > sessionDuration) {
+        localStorage.removeItem("authenticated");
+        localStorage.removeItem("authTime");
+        window.location.href = "./form.html";
+      }
+    })();
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Assistance - AGENT ★ ASSISTANT</title>
+  <link rel="stylesheet" href="../styles/help.css">
+  <link href="https://fonts.cdnfonts.com/css/avenir-lt-pro" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script src="src/script/script.js"></script>
+</head>
+
+<body>
+  <div id="navbar" class="navbar">
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <!-- Changed home-link to an anchor tag and applied hamburger button style -->
+    <a href="../../index.html" class="home-link">
+      <i class="fa fa-home"></i>
+    </a>
+
+    <div class="titles">
+      <h2>A G E N T ★ A S S I S T A N T</h2>
+    </div>
+    <div class="navlinks" id="navlinks">
+
+      <a class="current" title="Quickly search the FAQs to assist with issues. (Not fully finished yet)"
+        href="./search.html" target="_blank">FAQ Search Tool</a>
+
+      <a class="tooltiplink" title="Get assistance with repeating information back using NATO Phonetics." href="NATO.html"
+        target="_blank">NATO Phonetics Tool</a>
+
+      <a class="tooltiplink help" href="./help.html" target="_blank"
+        title="Coming Soon! (Having to modify to prevent privacy issues)">Call Flow Guide Tool (Coming Soon!)</a>
+
+      <a class="tooltiplink help" href="#" title="Coming Soon! (Having to modify to prevent privacy issues)">Get
+        Assistance (Coming Soon!)</a>
+
+      <a class="tooltiplink"
+        href="https://teams.microsoft.com/l/channel/19%3A26b6c65853784081bb5caa2b70a657b6%40thread.tacv2/Job%20Aids?groupId=7d496639-9181-41e2-be7e-da9b526bd34c&tenantId=fcbf9571-bb6c-4128-8f52-c3f44e6196be"
+        target="_blank" title="Click to open the phone tool.">Job Aids Hub</a>
+
+      <a class="teams" href="https://extapp.etechcti.com/Agentux" target="_blank"
+        title="Click to open the phone tool.">Grupo Phone Tool</a>
+
+      <a class="teams"
+        title="Click to open the Earnings Report. (Remember, your hours worked may be delayed in showing up on the report. Be patient.) 🙂"
+        href="https://app.powerbi.com/view?r=eyJrIjoiMmNkNjJhNWEtZTY2NC00ODJmLWFlMzQtYWIyYmMzODlkOWIyIiwidCI6ImZjYmY5NTcxLWJiNmMtNDEyOC04ZjUyLWMzZjQ0ZTYxOTZiZSIsImMiOjZ9"
+        target="_blank">Check Your Earnings</a>
+
+    </div>
+  </div>
+  <div class="container">
+    <h1>coming soon!</h1>
+  </div>
+  <footer>
+    <h5>v.1.3.1</h5>
+  </footer>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navlinks = document.getElementById('navlinks');
+
+    hamburger.addEventListener('click', () => {
+      // Toggle active class for hamburger icon
+      hamburger.classList.toggle('active');
+
+      // Toggle menu visibility with sliding effect
+      if (navlinks.classList.contains('show')) {
+        navlinks.classList.remove('show'); // Slide up
+      } else {
+        navlinks.classList.add('show'); // Slide down
+      }
+    });
+  </script>
+  <script src="../script/deepLink.js"></script>
+  <script src="../script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2974 @@
+[
+    {
+        "Question": "I received a letter that was addressed to my deceased spouse or individual I legally represent, can I enroll them in the services being provided?",
+        "Response": "Yes, I can assist you with enrolling them. [Agent \u2013 See below]",
+        "Keywords": [
+            "deceased",
+            "enrollment",
+            "spouse",
+            "legal",
+            "services",
+            "assistance",
+            "support",
+            "representation",
+            "enroll",
+            "beneficiary"
+        ]
+    },
+    {
+        "Question": "I can\u2019t enroll my deceased relative in the monitoring product, am I doing something wrong?",
+        "Response": "This means that the Social Security Administration has probably notified the credit bureaus that the relative is deceased. Once the credit bureaus have placed a deceased alert on the credit files, you will not be able to activate credit monitoring. With their credit frozen, the risk of identity theft has been significantly reduced. Please know that the membership still provides recovery services to support you, their legal representative, if something were to happen.",
+        "Keywords": [
+            "fail",
+            "error",
+            "authenticate",
+            "manual",
+            "credit",
+            "monitoring",
+            "deceased",
+            "freeze",
+            "identity",
+            "risk"
+        ]
+    },
+    {
+        "Question": "What kind of coverage will the membership offer to someone who is deceased?",
+        "Response": "With this enrollment, we will provide you, their legal representative, resolution assistance should they [the member] experience any fraudulent activity. The protection services apply to their identity, but the membership is truly there to support you, if something were to happen.",
+        "Keywords": [
+            "coverage",
+            "deceased",
+            "membership",
+            "resolution",
+            "protection",
+            "services",
+            "identity",
+            "assistance",
+            "fraudulent",
+            "activity"
+        ]
+    },
+    {
+        "Question": "Is it possible to steal a deceased person\u2019s identity?",
+        "Response": "Unfortunately, it is possible to steal the identity of someone who is deceased. Identity thieves obtain information about deceased individuals in various ways.",
+        "Keywords": [
+            "deceased",
+            "identity",
+            "theft",
+            "fraud",
+            "risk",
+            "information",
+            "vulnerable",
+            "protection",
+            "criminals",
+            "data"
+        ]
+    },
+    {
+        "Question": "I can\u2019t enroll my minor child in the monitoring product, am I doing something wrong?",
+        "Response": "Minors will still have access to our full recovery services. As minors, however, they are under the age necessary to secure credit. Thus, they have no credit file or credit report that can be monitored. If you suspect an issue has arisen for your minor child as a result of this data loss, do not hesitate to contact IDX and utilize our recovery services. ",
+        "Keywords": [
+            "Minor child",
+            "Enrollment",
+            "Monitoring",
+            "product",
+            "Credit file",
+            "Credit report",
+            "Recovery services",
+            "Data loss",
+            "IDX",
+            "Age requirement"
+        ]
+    },
+    {
+        "Question": "Why can\u2019t I pull my child\u2019s credit report?",
+        "Response": "Most minors, under the age of 18, do not have a credit history established and are under the age to secure credit, therefore there is no credit report to pull.",
+        "Keywords": [
+            "Child\u2019s credit report",
+            "Credit history",
+            "Minor",
+            "Underage",
+            "No credit report",
+            "Secure credit",
+            "Age limit",
+            "Credit pulling",
+            "Minor\u2019s credit",
+            "Credit establishment"
+        ]
+    },
+    {
+        "Question": "I received the notification on the behalf of my business. Can I still receive assistance?",
+        "Response": "We are only able to offer credit monitoring tied to Social Security numbers and only provide recovery services for issues tied to a US Social Security number. If you are the business owner and would like to enroll as an individual, please use your name and SSN when enrolling.",
+        "Keywords": [
+            "company",
+            "personal"
+        ]
+    },
+    {
+        "Question": "I received a notification letter addressed to my business. Can I enroll my business in services?",
+        "Response": "IDX, A ZeroFox Company identity protection memberships are an individual consumer product and must be tied to a US-based Social Security number. As the business proprietor, you can enroll only yourself, under your name, to receive a membership for yourself. ",
+        "Keywords": [
+            "company"
+        ]
+    },
+    {
+        "Question": "My business was affected. Can I enroll my employees?",
+        "Response": "Only the employees that were affected can receive services. If they were affected, they would have received an individual notification letter. We would recommend they call to confirm if they were affected. ",
+        "Keywords": [
+            "company",
+            "staff",
+            "co-workers"
+        ]
+    },
+    {
+        "Question": "If I live overseas, will my account(s) still be monitored?",
+        "Response": "Only your U.S. credit files based on U.S. Social Security numbers will be monitored.\u00a0 ",
+        "Keywords": [
+            "International",
+            "foreign"
+        ]
+    },
+    {
+        "Question": "If I am overseas and receive an alert on one of my monitored account(s), can I still file a theft event?",
+        "Response": "Yes, that can be filed online through your account at https://app.idx.us/login. Log in to your account using the User ID and password you set-up. Once logged in, you will see a link for, \u201cRequest Help\u201d under the Help Ticket Widget near the bottom of the screen. ",
+        "Keywords": [
+            "International",
+            "foreign"
+        ]
+    },
+    {
+        "Question": "Will my overseas account(s) also be monitored?",
+        "Response": "No, only U.S.-based accounts on your U.S credit file are monitored. Please check with the country your account is located in to see what monitoring options are provided.\u00a0 ",
+        "Keywords": [
+            "International",
+            "foreign"
+        ]
+    },
+    {
+        "Question": "I work outside of the US, but am a US citizen and would like to enroll.",
+        "Response": "As long as you have a US Social Security number, you can enroll. If you are living abroad, please use the address you would have on their credit files. To sign up for the services, you will need to have an email address. ",
+        "Keywords": [
+            "International",
+            "foreign",
+            "overseas"
+        ]
+    },
+    {
+        "Question": "I live outside of the US permanently, but would like to enroll.",
+        "Response": "As long as you have a US Social Security number, you can enroll. If you are living abroad, please use the address you would have on their credit files. To sign up for the services, you will need to have an email address.",
+        "Keywords": [
+            "International",
+            "foreign",
+            "overseas",
+            "resident"
+        ]
+    },
+    {
+        "Question": "Why is the membership not open to people without Social Security numbers?",
+        "Response": "We are only able to offer credit monitoring tied to Social Security numbers and only provide recovery services for US based identity theft. If you have a US Social Security number, but live outside the US, we\u2019d be happy to enroll you. ",
+        "Keywords": [
+            "International",
+            "foreign",
+            "overseas"
+        ]
+    },
+    {
+        "Question": "Will I receive a notification letter in the mail?\u00a0 ",
+        "Response": "Change Healthcare has begun mailing written notices, on a rolling basis, to individuals affected by the February cybersecurity incident for whom Change Healthcare has a sufficient address. If you do not receive a letter via U.S. mail but believe you may have been impacted, please visit changecybersupport.com for more information. ",
+        "Keywords": [
+            "Notification",
+            "Mail",
+            "Letter",
+            "Delivery",
+            "Notice",
+            "Recipient",
+            "Postal",
+            "Timeline",
+            "Sent",
+            "Receipt"
+        ]
+    },
+    {
+        "Question": "Will you follow up to let me know what specific information of mine may have been affected? ",
+        "Response": "Change Healthcare has begun mailing individual notification letters, on a rolling basis, to affected people identified through data review.\u00a0 \n\nThe letters will be sent via U.S. mail to those individuals for whom Change Healthcare has a sufficient address. \n\nFor those individuals who are affected, the data that may have been seen and taken includes contact information (such as name, address, date of birth, phone number, and email) plus one or more of the following: health insurance data, health data, billing, insurance claims and payment data, and other personal data (such as Social Security number, driver\u2019s license or state ID number, or other ID number). The data that may have been involved was not the same for every impacted individual. \n\nChange Healthcare continues to see no evidence that materials such as doctors\u2019 charts or full medical histories were exfiltrated from its systems. \n\nIf you have not done so already, we encourage you to visit changecybersupport.com to get more information and details on these resources. A dedicated call center is available to offer free credit monitoring and identity theft protection services for two years to anyone who believes they may have been impacted. ",
+        "Keywords": [
+            "Follow-Up",
+            "Affected Data",
+            "Notification Request",
+            "Information Accuracy",
+            "Identity Protection",
+            "Breach Resolution",
+            "Communication Update",
+            "Personal Inquiry",
+            "Follow-Up Action",
+            "Assurance"
+        ]
+    },
+    {
+        "Question": "What/Who is Change Healthcare and what areas of the health system do they support? ",
+        "Response": "Change Healthcare works across the health system to make clinical, administrative and financial processes simpler and more efficient for payers, providers and consumers. Key areas of support include pharmacy claims transactions, provider claims processing, patient access and financial clearance, provider payments and authorizations and medical necessity reviews. ",
+        "Keywords": [
+            "Change",
+            "Healthcare",
+            "Health System",
+            "Services",
+            "Support",
+            "Company Info",
+            "Provider Details",
+            "Organization",
+            "Industry",
+            "Roles"
+        ]
+    },
+    {
+        "Question": "What happened? ",
+        "Response": "On February 21, 2024, Change Healthcare became aware of unauthorized activity in its computer system that happened without its permission. The company quickly took steps to stop that activity. It began an investigation right away and contacted law enforcement. Change Healthcare\u2019s security team has been working around the clock in conjunction with several top security experts to address the matter and understand what happened.\u00a0 You can visit a dedicated website at www.changecybersupport.com to get more information and details on these resources. ",
+        "Keywords": [
+            "Breach Overview",
+            "Incident Details",
+            "Cause Explanation",
+            "Timeline",
+            "Event Summary",
+            "Occurrence",
+            "Data Loss Impact",
+            "Incident Review",
+            "Specific Cause",
+            "Breach Summary"
+        ]
+    },
+    {
+        "Question": "Am [I / family member] impacted? ",
+        "Response": "Given the ongoing and complexity of data review, I am not able to provide any specifics on individual data impact at this time. Throughout the data review, individuals will be notified directly if they are impacted. This notification will likely be in the form of some direct mail and website notice. \n\nFor now, Change Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company, while the data review continues. Would you like us to enroll you today? ",
+        "Keywords": [
+            "Impact",
+            "Family",
+            "Member",
+            "Affected",
+            "Individual",
+            "Assessment",
+            "Confirm",
+            "Relation",
+            "Status",
+            "Personal"
+        ]
+    },
+    {
+        "Question": "When / how did the event occur? ",
+        "Response": "Change Healthcare became aware of the situation on February 21, 2024, and the company has actively been working to restore its systems and operations as quickly as possible to ensure provider claims are addressed and people have access to the medications and care they need. ",
+        "Keywords": [
+            "Timeline",
+            "Event Cause",
+            "Incident Occurrence",
+            "Breach Details",
+            "Date and Method",
+            "Chronology",
+            "Event Sequence",
+            "Incident Timing",
+            "Occurrence Details",
+            "Timeframe"
+        ]
+    },
+    {
+        "Question": "What personal information was impacted? ",
+        "Response": "Based on initial targeted data sampling to date, the company has found files containing protected health information (PHI) which could cover a substantial proportion of people in America. \n\nThis data may include PHI from transactional claims data such as health insurance member ID numbers, diagnostic and treatment codes, payments and balances and provider identities. The data may also include full names, dates of birth, addresses and social security numbers. To date, the company has not seen evidence of removal of materials like doctors\u2019 charts or full medical histories among the data. ",
+        "Keywords": [
+            "Personal",
+            "Sensitive Data",
+            "Breach Details",
+            "Categories",
+            "F",
+            "Data Types",
+            "Identity",
+            "Exposure",
+            "Access",
+            "Information Loss"
+        ]
+    },
+    {
+        "Question": "I want to know what specific information/personal data was impacted for me.\u00a0\u00a0 ",
+        "Response": "Given the volume and complexity of the data involved, Change Healthcare cannot confirm exactly what data has been affected for each impacted individual, but the information involved may have included contact information (such as name, address, date of birth, phone number, and email) plus one or more of the following: health insurance data, health data, billing, insurance claims and payment data, and other personal data (such as Social Security number, driver\u2019s license or state ID number, or other ID number). The data that may have been involved was not the same for every impacted individual. Change Healthcare continues to see no evidence that materials such as doctors\u2019 charts or full medical histories were removed from its systems. \n\nChange Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. Would you like us to enroll you today? \n\n[Agent \u2013 Additional questions about specifics on data elements impacted should not be treated as an escalation.]\u00a0",
+        "Keywords": [
+            "Specific",
+            "Personal",
+            "Data Breach",
+            "Direct Impact",
+            "Me",
+            "Details",
+            "Identity Exposure",
+            "Custom Impact",
+            "Resolution",
+            "Security Concern"
+        ]
+    },
+    {
+        "Question": "Why does Change Healthcare have my data?\u00a0\u00a0 ",
+        "Response": "Change Healthcare provides services to health care providers, health plans, and health care companies. It appears you received services from a health care provider or were a member of a health plan that uses Change Healthcare\u2019s services. It is also possible that you served as the parent, primary insured, or guarantor for an individual who received such services.\u00a0 A guarantor is the person who paid the bill.\u00a0\u00a0 \n\n[If individuals want to know: What health care provider/health care plan/managed care organization that I am affiliated with uses Change Healthcare\u2019s services?] \n\nIf Change Healthcare was able to attribute a specific health care provider or health care plan to your data, then their name would likely be listed in your letter.\u00a0 If we have not been able to assign a specific health care provider or health plan to your data, then you may have received a more general letter so you have information on how to sign up for credit monitoring and identity protection services if you wish to do so. \n\n[Agent \u2013 Additional questions about specifics on provider or health plan name should not be treated as an escalation.]\u00a0 ",
+        "Keywords": [
+            "Change",
+            "Data Use",
+            "Purpose",
+            "Justification",
+            "Storage",
+            "Policy",
+            "Ownership",
+            "Access Authority",
+            "Agreement",
+            "Accountability"
+        ]
+    },
+    {
+        "Question": "Multiple members in my household share the same name (Jr., Sr., II, III, etc.) and the letter we received does not identify whether it should go to me or my [parent/child/etc.]. Would you please confirm who was impacted?\u00a0 ",
+        "Response": "Thank you for letting me know. Given the volume and complexity of the data involved, Change Healthcare cannot confirm which named recipient was involved if two or more people in the same household have the same name at the same address. Each individual can sign up to receive the free credit monitoring. Change Healthcare is offering all individuals who were potentially affected two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. Would you like us to enroll you and [family member] today?\u00a0 \n\n[Agent \u2013 Please offer to enroll all relevant individuals in credit monitoring.]\u00a0 ",
+        "Keywords": [
+            "Household",
+            "Name Conflict",
+            "Addressed Letter",
+            "Identity Question",
+            "Specificity",
+            "Clarification",
+            "Family Member",
+            "Resolution",
+            "Relation",
+            "Verification"
+        ]
+    },
+    {
+        "Question": "How can I have my information removed from CHC\u2019s network? ",
+        "Response": "I understand your concern. Due to state and federal regulations, certain records must remain on file, especially because CHC is a vendor to other health care companies. If you have a specific medical records request, please contact your health plan or your health care provider.\u00a0\u00a0 ",
+        "Keywords": [
+            "Data Removal",
+            "Privacy",
+            "CHC Network",
+            "Request",
+            "Procedure",
+            "Compliance",
+            "Personal Rights",
+            "Data Access",
+            "Deletion",
+            "Opt-out"
+        ]
+    },
+    {
+        "Question": "My letter is addressed to \u201cthe Estate of [NAME]\u201d but I am alive.\u00a0 ",
+        "Response": "Thank you for letting me know. We will note this in our files, and we apologize for any inconvenience or confusion. As part of our data review, we have attempted to locate the best available contact information for our notice letters. Since the notifications for this incident are ongoing, it is possible that you may receive another such letter. \n\n[Agent: If caller expresses concern about deceased designation and identity fraud, please add the following:] \n\nReceiving a letter to your estate does not necessarily mean that you have been a victim of identity theft. Given your concerns, Change Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. These services include single bureau credit monitoring to alert you of any changes to your credit report, CyberScan Dark Web monitoring, $1,000,000 reimbursement insurance, fully managed identity restoration, and various member advisory services including \u201clost wallet\u201d assistance. Would you like us to enroll you today at no cost? \n\nWhile we are not aware of fraudulent use of your information, in addition to enrolling in two years of complimentary credit monitoring services, we encourage you to carefully review statements sent to you from your healthcare providers, insurance company, and financial institutions to ensure that all of your account activity is valid. Report any questionable charges promptly to the provider or company with which you maintain the account. If you believe you are the victim of a crime, contact local law enforcement authorities and file a police report. ",
+        "Keywords": [
+            "Letter Error",
+            "Estate Address",
+            "Incorrect",
+            "Notification Mistake",
+            "Verification",
+            "Proof of Life",
+            "Error Resolution",
+            "Miscommunication",
+            "Fix",
+            "Address Update"
+        ]
+    },
+    {
+        "Question": "How many individuals were impacted and why weren't we notified earlier? ",
+        "Response": "Change Healthcare has begun mailing written notices, on a rolling basis, to individuals affected by the February cybersecurity incident for whom Change Healthcare has a sufficient address.\u00a0 If you do not receive a letter via U.S. mail but believe you may have been impacted, please visit changecybersupport.com for more information. \n\nAs the company continues to work with leading industry experts to analyze data involved in this cyberattack, it is immediately providing support and robust protections, rather than waiting until the conclusion of the data review. \n\nWith this type of event, it takes time to gather the relevant information and identify the affected individuals. It is important that we understood what happened and properly identified individuals who were potentially impacted. ",
+        "Keywords": [
+            "Individuals",
+            "Count",
+            "Notification Timing",
+            "Delays",
+            "Numbers",
+            "Notification",
+            "Breach Impact",
+            "Group Size",
+            "Communication",
+            "Timeline Issue"
+        ]
+    },
+    {
+        "Question": "When will we receive more information? ",
+        "Response": "Change Healthcare has begun mailing written notices, on a rolling basis, to individuals affected by the February cybersecurity incident for whom Change Healthcare has a sufficient address.\u00a0 If you do not receive a letter via U.S. mail but believe you may have been impacted, please visit changecybersupport.com for more information. \n\nAs the company continues to work with leading industry experts to analyze data involved in this cyberattack, it is immediately providing support and robust protections, rather than waiting until the conclusion of the data review.\u00a0 ",
+        "Keywords": [
+            "Timeline",
+            "Update",
+            "Notification",
+            "Anticipation",
+            "Follow-up",
+            "Additional Details",
+            "Resolution Timing",
+            "Next Steps",
+            "Awaited Info",
+            "Specifics"
+        ]
+    },
+    {
+        "Question": "Will this affect my care by my health care provider? ",
+        "Response": "While Change Healthcare is focused on addressing this cyber security issue, it is committed to ensuring its clients and their patients have access to the care and solutions they need. We suggest you reach out to your health care provider directly to address any questions about your particular care. ",
+        "Keywords": [
+            "Care Impact",
+            "Provider Info",
+            "Service Continuity",
+            "Patient Rights",
+            "Healthcare",
+            "Provider",
+            "Treatment Risk",
+            "Service Changes",
+            "Impact",
+            "Medical"
+        ]
+    },
+    {
+        "Question": "Is it safe to pay my bill? ",
+        "Response": "Yes. It is safe to pay your bill. ",
+        "Keywords": [
+            "Payment",
+            "Safety",
+            "Billing Security",
+            "Process",
+            "Fraud Risk",
+            "Assurance",
+            "Financial",
+            "Secure Billing",
+            "Trust",
+            "Transaction"
+        ]
+    },
+    {
+        "Question": "Is my information secure? What is Change Healthcare doing to prevent this kind of loss from happening again? ",
+        "Response": "Your privacy and security are priorities to Change Healthcare. \n\nChange Healthcare\u2019s security team continues to work with leading cybersecurity firms to investigate the issue while also working to protect its systems. ",
+        "Keywords": [
+            "Security",
+            "Prevention",
+            "Data Protection",
+            "Breach Mitigation",
+            "Future Risk",
+            "Policy Updates",
+            "Changes Implemented",
+            "Safety Measures",
+            "Encryption",
+            "Confidence"
+        ]
+    },
+    {
+        "Question": "I\u2019d like to request a translated copy of my notification letter. How do I do this? ",
+        "Response": "Thank you for reaching out.\u00a0 Could you please provide some information to me so that I can pass on your translation request? \n\nWhat language would you like the letter translated in to? \n\nCan you please read to me the GUID number located on the bottom left corner of your letter? This number should be on the bottom left corner on the first page of your letter. \n\nWould you please provide me with your name and mailing address as listed in your letter? \n\nThank you. I will pass this information on to Change Healthcare for their review.\u00a0 ",
+        "Keywords": [
+            "Translation",
+            "Letter Copy",
+            "Request",
+            "Language Preference",
+            "Alternative",
+            "Process",
+            "Delivery Details",
+            "Access",
+            "Translation",
+            "Language Request"
+        ]
+    },
+    {
+        "Question": "The person this letter was sent to no longer/never lived at this location. What should I do? ",
+        "Response": "Thank you for letting us know.\u00a0 As part of our data review, we have attempted to locate the best available contact information for our notice letters. We would appreciate it if you would please either shred the letter(s) or return the letter(s) to your mail carrier in the envelope and mark it Return to Sender. \u00a0Since the data review for this incident is ongoing, it is possible that you may receive another letter; if so, please shred the letter or return the letter to your mail carrier in the envelope and mark it Return to Sender. It is possible that multiple letters could be sent to your address. Receiving multiple notice letters \u2013 or letters addressed to another recipient \u2013 does not necessarily mean that you have been a victim of identity theft. \n\nChange Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. These services include single bureau credit monitoring to alert you of any changes to your credit report, CyberScan Dark Web monitoring, $1,000,000 reimbursement insurance, fully managed identity restoration, and various member advisory services including \u201clost wallet\u201d assistance. Would you like us to enroll you today at no cost? \n\nWhile we are not aware of fraudulent use of your information, in addition to enrolling in two years of complimentary credit monitoring services, we encourage you to carefully review statements sent to you from your healthcare providers, insurance company, and financial institutions to ensure that all of your account activity is valid. Report any questionable charges promptly to the provider or company with which you maintain the account. If you believe you are the victim of a crime, contact local law enforcement authorities and file a police report. ",
+        "Keywords": [
+            "Incorrect Address",
+            "Letter Delivery",
+            "Address Update",
+            "Notification Issue",
+            "Misaddressed Letter",
+            "Correction Request",
+            "Relocation Concern",
+            "Recipient Confirmation",
+            "Contact Assistance",
+            "Delivery Error"
+        ]
+    },
+    {
+        "Question": "Can you please update my address? ",
+        "Response": "Thank you for letting me know. We will note this in our files. Please be sure and tell your provider\u2019s office when there are any changes to your information. ",
+        "Keywords": [
+            "Address",
+            "Update",
+            "Correction",
+            "Notification Change",
+            "Relocation",
+            "Contact Info",
+            "Process",
+            "Details",
+            "Verification",
+            "Edit"
+        ]
+    },
+    {
+        "Question": "Why was a letter addressed to my child instead of to me? ",
+        "Response": "We are required to send notices to the individual whose information may have been involved, even when it is a child and parent/guardian information or the individual\u2019s minor status may not have been available, so we addressed the letter to your child. ",
+        "Keywords": [
+            "Child",
+            "Letter Error",
+            "Notification",
+            "Parent Concern",
+            "Correction",
+            "Misaddressed",
+            "Identity",
+            "Relation",
+            "Clarification",
+            "Notification"
+        ]
+    },
+    {
+        "Question": "How do I protect my child\u2019s information? ",
+        "Response": "In addition to enrolling your child in two years of complimentary identity theft protection services, the Reference Guide enclosed with your child\u2019s letter includes information on general steps you can take to monitor and protect your child\u2019s personal information. Please review the enclosed Reference Guide. We also encourage you to carefully review credit reports and statements sent from healthcare providers and financial institutions as well as your insurance company to ensure that all account activity is valid. Any questionable charges should be promptly reported to the company with which you maintain the account. \n\nEven if your child did not receive a notice letter, you can still review information about general steps that you can take to monitor and safeguard your child\u2019s personal information at www.changecybersupport.com. ",
+        "Keywords": [
+            "Child Data",
+            "Security",
+            "Identity Safety",
+            "Protection Steps",
+            "Safeguards",
+            "Parental Rights",
+            "Privacy Measures",
+            "Best Practices",
+            "Data Breach",
+            "Sensitive Info"
+        ]
+    },
+    {
+        "Question": "My child is under 13 and the credit reporting agencies said they don\u2019t keep credit files on children under 13. How can I protect my child? ",
+        "Response": "That is correct. Credit reporting companies do not generally keep information on young children because young children have not established credit yet \u2013 such as an adult would through loans, credit cards, home purchases and so on. We encourage you to carefully review credit reports and statements sent from healthcare providers and financial institutions as well as your insurance company to ensure that all account activity is valid. Any questionable charges should be promptly reported to the company with which you maintain the account. ",
+        "Keywords": [
+            "Credit Files",
+            "Under 13",
+            "Child Protection",
+            "Reporting Agencies",
+            "Credit Risk",
+            "Parental Steps",
+            "Security Measures",
+            "Breach Prevention",
+            "Data Safety",
+            "Best Practices"
+        ]
+    },
+    {
+        "Question": "Can my [spouse/child/family member] also receive services? ",
+        "Response": "Change Healthcare is offering all individuals who were potentially affected two years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. Would you like us to enroll you and [spouse/child/family member] today? ",
+        "Keywords": [
+            "Family Services",
+            "Spouse",
+            "Eligibility",
+            "Additional Services",
+            "Member Access",
+            "Support",
+            "Benefits",
+            "Application",
+            "Coverage",
+            "Related Person"
+        ]
+    },
+    {
+        "Question": "Who is IDX? ",
+        "Response": "IDX is an identity and privacy protection company. Change Healthcare takes this matter very seriously. To help you with any questions about this incident, Change Healthcare has arranged with IDX to establish a call center specifically to assist you in enrolling in two years of complimentary credit monitoring and identity restoration services. I am an operator working with IDX and can provide you with information regarding this incident. ",
+        "Keywords": [
+            "IDX Provider",
+            "Identity",
+            "Monitoring",
+            "Partner Company",
+            "Data Breach",
+            "Security Company",
+            "Vendor",
+            "Protection",
+            "Association",
+            "Provider Info"
+        ]
+    },
+    {
+        "Question": "I am buying a different credit monitoring/identity theft protection product and I want you to reimburse me / I would like identity monitoring services through [Norton, LifeLock, Other]. ",
+        "Response": "We sincerely regret any inconvenience this event may have caused. We are offering all individuals who were potentially affected two years of complimentary credit monitoring and identity theft protection services through IDX. IDX is an industry leader in credit monitoring and protection services. We will not reimburse other services. ",
+        "Keywords": [
+            "Monitoring Service",
+            "Reimbursement",
+            "Alternative Options",
+            "Credit Safety",
+            "Identity Theft",
+            "Compensation",
+            "Norton",
+            "LifeLock",
+            "Protection Plan",
+            "Request"
+        ]
+    },
+    {
+        "Question": "I would like monetary compensation.\u00a0 ",
+        "Response": "We sincerely regret any inconvenience this event may have caused. We are offering all individuals who were potentially affected two years of complimentary credit monitoring and identity theft protection services through IDX. IDX is an industry leader in credit monitoring and protection services. We are not prepared to offer other forms of compensation at this time. ",
+        "Keywords": [
+            "Monetary Claim",
+            "Payment Request",
+            "Compensation",
+            "Financial Impact",
+            "Reimbursement",
+            "Settlement",
+            "Damages",
+            "Breach Remedy",
+            "Filing Claim",
+            "Outcome"
+        ]
+    },
+    {
+        "Question": "What steps can I take to protect myself? ",
+        "Response": "While Change Healthcare is still investigating whether your personal information may have been affected, there are some things you can do to protect yourself:\n\n\u2022\u00a0\u00a0 Remain vigilant and regularly monitor the explanation of benefits statements you receive from your health plan, as well as your bank and credit card statements, credit reports and tax returns to check for any unfamiliar activity. \n\u2022\u00a0\u00a0 If you notice any health care services you did not receive listed on an explanation of benefits statement, please contact your health plan or doctor. \n\u2022\u00a0\u00a0 If you notice any suspicious activity on either your bank or credit card statements or on your tax returns, please immediately contact your financial institution and/or credit card company or relevant agency. \n\u2022\u00a0\u00a0 If you believe you are the victim of a crime, you can contact your local law enforcement authorities and file a police report.\u00a0\n\nGiven your concerns, Change Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. These services include single bureau credit monitoring to alert you of any changes to your credit report, CyberScan Dark Web monitoring, $1,000,000 reimbursement insurance, fully managed identity restoration, and various member advisory services including \u201clost wallet\u201d assistance. Individuals whose personal information may have been affected will be notified with additional details about the incident. Would you like us to enroll you today? \n\n[Agent \u2013 Once account confirmation email has been sent] \nWe want to encourage you to check your Junk folder if you do not see the confirmation email come through within the next few minutes. Would you like us to stay on the line while you look at your email? ",
+        "Keywords": [
+            "Protection Steps",
+            "Safety Measures",
+            "Security Guidance",
+            "Identity Security",
+            "Proactive Steps",
+            "Prevention",
+            "Mitigation",
+            "Advice",
+            "Safeguards",
+            "Recommendations"
+        ]
+    },
+    {
+        "Question": "Who should I contact if I have questions? ",
+        "Response": "I am here to answer any questions you may have. This toll-free number is here for you to ask questions and learn additional information. This call center is open 7:00 AM to 8:00 PM Central Time, Monday through Friday, except holidays. ",
+        "Keywords": [
+            "Contact Info",
+            "Support Center",
+            "Questions Help",
+            "Customer Assistance",
+            "Inquiries",
+            "Help Desk",
+            "Resolution",
+            "Communication",
+            "Guidance",
+            "Resources"
+        ]
+    },
+    {
+        "Question": "Can you send me another copy of my letter / send a copy of my letter to a new address? ",
+        "Response": "Please visit changecybersupport.com for information about the incident. This website contains the same information provided in the notification letter. ",
+        "Keywords": [
+            "Copy Request",
+            "Letter Resend",
+            "Address Change",
+            "Duplicate Letter",
+            "Notification",
+            "Update Details",
+            "Correction",
+            "Delivery",
+            "Reissue",
+            "Assistance"
+        ]
+    },
+    {
+        "Question": "I would like to know if my name has been used in a fraudulent manner / a different name is listed on my notice letter, am I the victim of fraud?\u00a0 ",
+        "Response": "Change Healthcare sincerely regrets any inconvenience or confusion this may have caused.\u00a0 As part of our data review, we have attempted to locate the best available contact information for our notice letters.\u00a0 However, it is possible that multiple letters could be sent to your address. Receiving multiple notice letters does not necessarily mean that you have been a victim of identity theft. \n\nWhile we are not aware of fraudulent use of your information, in addition to enrolling in two years of complimentary credit monitoring services, we encourage you to carefully review statements sent to you from your healthcare providers, insurance company, and financial institutions to ensure that all of your account activity is valid. Report any questionable charges promptly to the provider or company with which you maintain the account.\u00a0 If you believe you are the victim of a crime, contact local law enforcement authorities and file a police report. ",
+        "Keywords": [
+            "Fraud Investigation",
+            "Name Discrepancy",
+            "Victim Confirmation",
+            "Identity Breach",
+            "Security Concern",
+            "Breach Response",
+            "Name Usage Check",
+            "Fraud Prevention",
+            "Verification Inquiry",
+            "Identity Assurance"
+        ]
+    },
+    {
+        "Question": "I would like to sign up for credit monitoring. ",
+        "Response": "I can help you with that. Change Healthcare understands you are concerned about your personal information. Change Healthcare values its relationship with its customers and the members and patients their customers\u2019 support. Given your concerns, Change Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. These services include single bureau credit monitoring to alert you of any changes to your credit report, CyberScan Dark Web monitoring, $1,000,000 reimbursement insurance, fully managed identity restoration, and various member advisory services including \u201clost wallet\u201d assistance. Individuals whose personal information may have been affected will be notified with additional details about the incident. Would you like us to enroll you today? \n\n[Agent \u2013 Once account confirmation email has been sent:] \n\nWe want to encourage you to check your Junk folder if you do not see the confirmation email come through within the next few minutes. Would you like us to stay on the line while you look at your email? ",
+        "Keywords": [
+            "Credit Monitoring",
+            "Service Request",
+            "Protection Enrollment",
+            "Identity Security",
+            "Subscription",
+            "Application",
+            "Support Program",
+            "Registration",
+            "Preventative",
+            "Credit Safety"
+        ]
+    },
+    {
+        "Question": "I have experienced identity theft and I think it is linked to this event. What should I do? ",
+        "Response": "Thank you for letting me know. If you have not done so already, you may want to report the suspected identity theft to the proper law enforcement authorities, including your local police department for your area of residence and your state\u2019s attorney general. \n\nGiven your concerns, Change Healthcare is offering you two-years of complimentary credit monitoring and identity restoration services through IDX, a third-party identity and privacy protection company. These services include single bureau credit monitoring to alert you of any changes to your credit report, CyberScan Dark Web monitoring, $1,000,000 reimbursement insurance, fully managed identity restoration, and various member advisory services including \u201clost wallet\u201d assistance. Individuals whose personal information may have been affected will be notified with additional details about the incident. Would you like us to enroll you today? ",
+        "Keywords": [
+            "Identity Theft Action",
+            "Breach Connection",
+            "Reporting Steps",
+            "Victim Support",
+            "Event Linkage",
+            "Fraud Mitigation",
+            "Security Guidance",
+            "Follow-Up Process",
+            "Recovery Actions",
+            "Personal Assistance"
+        ]
+    },
+    {
+        "Question": "Can I speak with someone directly at Change Healthcare? ",
+        "Response": "Change Healthcare takes this matter very seriously. In order to help you with any questions you may have about this event, it has established this call center specifically to answer your questions about this event. I am an operator working with Change Healthcare and can provide you with information regarding this event. ",
+        "Keywords": [
+            "Direct Contact",
+            "Customer Support",
+            "Representative",
+            "Healthcare Questions",
+            "Resolution",
+            "Personal Service",
+            "Assistance",
+            "Call Support",
+            "Interaction",
+            "Communication"
+        ]
+    },
+    {
+        "Question": "How do I get a copy of my credit report? ",
+        "Response": "To order your free annual credit report, visit www.annualcreditreport.com, call toll-free at (877) 322-8228, or complete the Annual Credit Report Request Form on the U.S. Federal Trade Commission\u2019s (\u201cFTC\u201d) website at www.ftc.gov and mail it to Annual Credit Report Request Service, P.O. Box 105281, Atlanta, GA 30348-5281. The three credit bureaus provide free annual credit reports only through their website, toll-free number or request form.\u00a0 ",
+        "Keywords": [
+            "Credit Report",
+            "Copy Request",
+            "Identity Check",
+            "Financial Record",
+            "Application",
+            "Security Check",
+            "Access Report",
+            "Data Inquiry",
+            "Steps",
+            "Verification"
+        ]
+    },
+    {
+        "Question": "How do I place a Fraud Alert? ",
+        "Response": "A fraud alert helps protect against the possibility of an identity thief opening new credit accounts in your name. You can place a fraud alert on your credit report by calling any one of or all three credit reporting agency\u2019s toll-free fraud numbers. The contact information for the credit reporting agencies can be found at: ",
+        "Keywords": [
+            "Fraud Alert",
+            "Alert Process",
+            "Identity Protection",
+            "Notification",
+            "Prevention",
+            "Proactive Measure",
+            "Credit Safety",
+            "Activation",
+            "Data Breach",
+            "Reporting Fraud"
+        ]
+    },
+    {
+        "Question": "How do I place a Security Freeze? ",
+        "Response": "Unlike a fraud alert, you must separately place a security freeze on your credit file at each credit bureau.\u00a0 To place a security freeze on your credit report you must contact the credit reporting agency by phone, mail, or secure electronic means and provide proper identification of your identity. ",
+        "Keywords": [
+            "Security Freeze",
+            "Protection Steps",
+            "Identity Lock",
+            "Account Safety",
+            "Access Block",
+            "Prevention",
+            "Freezing Process",
+            "Breach Safety",
+            "Procedure",
+            "Safeguard Account"
+        ]
+    },
+    {
+        "Question": "What is the difference between a Fraud Alert and a Security Freeze? ",
+        "Response": "A fraud alert helps protect against the possibility of an identity thief opening new credit accounts in your name. A security freeze is designed to prevent potential credit grantors from accessing your credit report without your consent. ",
+        "Keywords": [
+            "Fraud Alert",
+            "Security Freeze",
+            "Feature Difference",
+            "Identity Safety",
+            "Protection Types",
+            "Account Security",
+            "Use Cases",
+            "Guidelines",
+            "Comparison",
+            "Instructions"
+        ]
+    },
+    {
+        "Question": "I am with (Media); can you provide me with further information about the recent data breach with Change Healthcare?\u00a0\u00a0 ",
+        "Response": "Please go to uhg.com/changehealthcarecyberresponsefor additional information or contact newsroom@optum.com. ",
+        "Keywords": [
+            "Media Inquiry",
+            "Data Breach",
+            "Healthcare Info",
+            "Public Statement",
+            "Journalism",
+            "Communication",
+            "Breach Details",
+            "Contact Info",
+            "Information",
+            "Official Reply"
+        ]
+    },
+    {
+        "Question": "I'm going to sue Change Healthcare! ",
+        "Response": "I understand your frustration. We want to help you as much as we can with questions about the incident. ",
+        "Keywords": [
+            "Legal Action",
+            "Lawsuit Threat",
+            "Company Liability",
+            "Healthcare Breach",
+            "Accountability",
+            "Court Case",
+            "Damages Claim",
+            "Filing",
+            "Legal Steps",
+            "Demand"
+        ]
+    },
+    {
+        "Question": "I am going to file a complaint with the OCR or the State. ",
+        "Response": "We sincerely regret any inconvenience. This is certainly your right to do so. ",
+        "Keywords": [
+            "Complaint",
+            "OCR Report",
+            "State Filing",
+            "Legal Issue",
+            "Procedure",
+            "Breach Impact",
+            "Authority Contact",
+            "Action Steps",
+            "Reporting",
+            "Escalation"
+        ]
+    },
+    {
+        "Question": "I would like to have a copy of the police report provided by Change Healthcare / any report by Change Healthcare to state or federal agencies / FTC.\u00a0 ",
+        "Response": "I\u2019m sorry, I do not have that information. If you have not done so already, we encourage you to visit changecybersupport.com for more information and details regarding the incident.\u00a0 ",
+        "Keywords": [
+            "Police Report",
+            "Change Healthcare",
+            "Breach Record",
+            "Federal Complaint",
+            "State Filing",
+            "FTC Report",
+            "Official Filing",
+            "Documentation",
+            "Request",
+            "Evidence"
+        ]
+    },
+    {
+        "Question": "How would I know if I am a victim of medical fraud? ",
+        "Response": "We encourage individuals to review their EOBs (Explanation of Benefits), bills and statements from any medical facilities, providers or insurers to verify that the services are accurate. If not, please contact your health plan via the phone number listed on your insurance identification card. ",
+        "Keywords": [
+            "Medical Fraud",
+            "Victim Check",
+            "Identity Breach",
+            "Healthcare Impact",
+            "Investigation",
+            "Fraud Detection",
+            "Security Breach",
+            "Awareness",
+            "Verification",
+            "Response Steps"
+        ]
+    },
+    {
+        "Question": "[Agent: If caller expresses extreme worry or distress about the possible exposure of personal/health data, conduct further questioning to determine if caller should be routed to Emotional Support Line: \n\n\u2022\u00a0\u00a0 Caller presents as emotionally distraught or crying and would like to speak to a counselor, \n\u2022\u00a0\u00a0 Caller needs in the moment emotional support and wants to talk to someone right now about an emotional issue, \n\u2022\u00a0\u00a0 Caller says they are experiencing depression, anxiety, or stress, \n\u2022\u00a0\u00a0 Caller presents with risk such as:\n\u2022 \u00a0 Thoughts of harm to self or others \n\u2022\u00a0\u00a0 Severe medical issues \n\u2022\u00a0\u00a0 Eating disorders\n\u2022\u00a0\u00a0 Substance abuse or use] ",
+        "Response": "Thank you for sharing that with me. I'm not a healthcare provider and cannot provide any medical or social support advice to you. I can, however, provide you with the number to a trained and licensed clinician, who you can speak with further about this at no cost today.\u00a0 While they won't become your healthcare provider, Change Healthcare has established a dedicated line for additional support on a temporary basis to listen and see how they can help. This resource is completely voluntary and up to you. Would you like me to provide you with that number? 866-447-3573. \n\nYou could also decide to instead talk with your own healthcare provider about how you are feeling. If you think you may be having an emergency, please dial 911. \n\n[Agents \u2013 Please refer callers to a phone number to be provided separately] ",
+        "Keywords": [
+            "Emotional Support",
+            "Data Exposure",
+            "Health Breach",
+            "Worry Handling",
+            "Counseling",
+            "Victim Support",
+            "Resolution Path",
+            "Security Concern",
+            "Assistance",
+            "Call Routing"
+        ]
+    },
+    {
+        "Question": "Is UnitedHealth Group related to or part of Change Healthcare? ",
+        "Response": "Change Healthcare is part of UnitedHealth Group which is supporting the incident response efforts. ",
+        "Keywords": [
+            "UnitedHealth",
+            "Relation Info",
+            "Healthcare Details",
+            "Company Connection",
+            "Partnership",
+            "Collaboration",
+            "Association",
+            "Confirmation",
+            "Corporate Info",
+            "Integration"
+        ]
+    },
+    {
+        "Question": "Any questions/calls about Kaiser or the Kaiser incident. ",
+        "Response": "The Kaiser and Change Healthcare incident are not the same incident. We do not have information about the Kaiser incident, and we cannot answer any questions regarding the Kaiser incident.",
+        "Keywords": [
+            "Kaiser Incident",
+            "Healthcare Issue",
+            "Related Questions",
+            "Customer Calls",
+            "Specific Event",
+            "Association",
+            "Timeline Details",
+            "Event Clarification",
+            "Breach Details",
+            "Kaiser Info"
+        ]
+    },
+    {
+        "Question": "How do I set a fraud alert?",
+        "Response": "You can place a free fraud alert by calling Experian at 1-877-870-5640. Experian will then contact Equifax and TransUnion to place the additional two fraud alerts on your behalf.",
+        "Keywords": [
+            "fraud",
+            "alert",
+            "set",
+            "Experian",
+            "Equifax",
+            "TransUnion",
+            "free",
+            "protection",
+            "phone",
+            "security"
+        ]
+    },
+    {
+        "Question": "Why can\u2019t you set a fraud alert for me?",
+        "Response": "It\u2019s not legal for us to set a fraud alert on behalf of another individual.",
+        "Keywords": [
+            "legal",
+            "fraud",
+            "alert",
+            "set",
+            "individual",
+            "policy",
+            "security",
+            "responsibility",
+            "restriction",
+            "limitation"
+        ]
+    },
+    {
+        "Question": "Why should I set a fraud alert with the credit bureaus?",
+        "Response": "This will help prevent someone from opening new accounts in your name. It is the best line of defense available to all consumers. Please note, placing a fraud alert may delay your ability to open new lines of credit quickly.",
+        "Keywords": [
+            "fraud",
+            "alert",
+            "credit",
+            "prevention",
+            "accounts",
+            "delay",
+            "protection",
+            "security",
+            "defense",
+            "consumers"
+        ]
+    },
+    {
+        "Question": "When a fraud alert has been set, will it trigger an automatic mailing of a credit report?",
+        "Response": "For security purposes, placing a fraud alert does NOT trigger an automatic mailing of your credit report. Within 10 days of placing the fraud alert, you should receive directions from each credit bureau with the necessary steps to obtain the credit reports at no cost.",
+        "Keywords": [
+            "fraud",
+            "alert",
+            "credit",
+            "report",
+            "mailing",
+            "directions",
+            "bureaus",
+            "steps",
+            "obtain",
+            "security"
+        ]
+    },
+    {
+        "Question": "Will placing fraud alerts affect my ability to use my credit cards?",
+        "Response": "Fraud alerts will not affect the use of credit cards; however, they will slow down the process for new credit applications. This helps to ensure that any new extensions for credit are granted only with your permission.",
+        "Keywords": [
+            "fraud",
+            "alert",
+            "credit",
+            "cards",
+            "applications",
+            "process",
+            "extensions",
+            "security",
+            "permission",
+            "usage"
+        ]
+    },
+    {
+        "Question": "Is there any way for me to get around the Credit Bureau Automated System and get to a live person to set a fraud alert?",
+        "Response": "No, the bureaus have set up Fraud Alerts as an automated process only.",
+        "Keywords": [
+            "automated",
+            "process",
+            "fraud",
+            "alert",
+            "credit",
+            "bureaus",
+            "live",
+            "system",
+            "limitation",
+            "policy"
+        ]
+    },
+    {
+        "Question": "Will fraud alerts affect my ability to obtain a loan or credit?",
+        "Response": "If you are currently in the process of obtaining a new loan, please advise your loan officer of the fraud alerts. They should not delay or impede your loan application; however, there will be additional security steps due to the fraud alerts on your credit files.",
+        "Keywords": [
+            "fraud",
+            "alert",
+            "loan",
+            "credit",
+            "application",
+            "delay",
+            "process",
+            "officer",
+            "security",
+            "steps"
+        ]
+    },
+    {
+        "Question": "Are security/credit freezes available to everyone?",
+        "Response": "Yes, they are available to everyone at no cost.",
+        "Keywords": [
+            "credit",
+            "freeze",
+            "security",
+            "available",
+            "cost",
+            "everyone",
+            "access",
+            "protection",
+            "free",
+            "universal"
+        ]
+    },
+    {
+        "Question": "Should I place a Credit Freeze?",
+        "Response": "Generally speaking, freezes are intended for people who have experienced extreme cases of identity theft. Once a freeze is placed, it can be difficult to remove if you need to open new lines of credit or even activate a monitoring service down the road.",
+        "Keywords": [
+            "credit",
+            "freeze",
+            "identity",
+            "theft",
+            "extreme",
+            "monitoring",
+            "removal",
+            "difficulty",
+            "protection",
+            "decision"
+        ]
+    },
+    {
+        "Question": "If I freeze my credit, will IDX, A ZeroFox Company pay for the cost?",
+        "Response": "There is no cost to place a credit freeze. IDX, A ZeroFox Company only recommends freezing your credit if you are a confirmed victim of identity theft. Please know that being involved in a data breach does not necessarily mean that you have been a victim of identity theft.",
+        "Keywords": [
+            "credit",
+            "freeze",
+            "cost",
+            "identity",
+            "theft",
+            "victim",
+            "breach",
+            "recommendation",
+            "no-cost",
+            "protection"
+        ]
+    },
+    {
+        "Question": "I have heard that I can place a security freeze on my credit report. What exactly is a credit or security freeze?",
+        "Response": "A credit freeze (a.k.a. security freeze) prevents creditors and other entities from viewing your credit report without your express permission.",
+        "Keywords": [
+            "credit",
+            "freeze",
+            "security",
+            "report",
+            "permission",
+            "creditors",
+            "view",
+            "prevent",
+            "protection",
+            "block"
+        ]
+    },
+    {
+        "Question": "Am I able to activate credit monitoring with a security freeze in place?",
+        "Response": "The laws governing credit freezes differ from state to state. You can attempt to activate the credit monitoring, however, the credit freeze will prevent new lines of credit from being opened, so the monitoring would most likely result in no changes each month.",
+        "Keywords": [
+            "credit",
+            "freeze",
+            "monitoring",
+            "activate",
+            "state",
+            "laws",
+            "limitations",
+            "prevent",
+            "changes",
+            "protection"
+        ]
+    },
+    {
+        "Question": "Will placing a security freeze affect my ability to use my credit cards?",
+        "Response": "Fraud alerts and credit freezes will not affect the use of credit cards. They should slow down the process of new credit applications.",
+        "Keywords": [
+            "credit",
+            "freeze",
+            "fraud",
+            "alerts",
+            "cards",
+            "applications",
+            "process",
+            "usage",
+            "prevent",
+            "security"
+        ]
+    },
+    {
+        "Question": "My letter says I will receive a credit report with my service. Where do I locate it at?",
+        "Response": "[Agents \u2013 Please check to see if the population receives a free credit report. Typically, breaches do not include a free report; however, individuals can order free copies from Annual Credit Report by visiting them at www.annualcreditreport.com or by phone at 877-322-8228.] If provided a free credit report: Once you login, you can find your credit report in the Notification widget on your home page. Once you click on the report, please allow pop-ups for our website as it will pop up on another screen.",
+        "Keywords": [
+            "credit",
+            "report",
+            "letter",
+            "service",
+            "free",
+            "notification",
+            "widget",
+            "login",
+            "access",
+            "breach"
+        ]
+    },
+    {
+        "Question": "How do I obtain my credit score(s)?",
+        "Response": "We don\u2019t specialize in credit scores, but we have heard great feedback about www.myFICO.com.",
+        "Keywords": [
+            "credit",
+            "score",
+            "obtain",
+            "specialize",
+            "recommendation",
+            "feedback",
+            "myFICO",
+            "service",
+            "information",
+            "access"
+        ]
+    },
+    {
+        "Question": "How do I receive free copies of my credit reports?",
+        "Response": "If you place fraud alerts on your files, the credit bureaus will contact you with the steps you will need to take to obtain free copies of your credit reports. Otherwise, you can order free copies from Annual Credit Report by visiting them at www.annualcreditreport.com or you can call them at 877-322-8228.",
+        "Keywords": [
+            "credit",
+            "report",
+            "free",
+            "fraud",
+            "alerts",
+            "obtain",
+            "bureaus",
+            "files",
+            "annual",
+            "steps"
+        ]
+    },
+    {
+        "Question": "Would you help me read my credit report?",
+        "Response": "Unfortunately, I am not able to assist you with that. [Agent: This is a legal issue since we are not a \u201ccredit repair\u201d service.]",
+        "Keywords": [
+            "credit",
+            "report",
+            "read",
+            "assist",
+            "legal",
+            "issue",
+            "repair",
+            "service",
+            "limitation",
+            "policy"
+        ]
+    },
+    {
+        "Question": "What does the credit monitoring activation process involve?",
+        "Response": "The system will ask you to provide some additional information such as Social Security number, date of birth, driver\u2019s license, etc. The system uses this information simply as a security step to help ensure that they are communicating or dealing with the true person and not an imposter.",
+        "Keywords": [
+            "Activation",
+            "Process",
+            "SSN",
+            "DOB",
+            "Driver's ID",
+            "Security",
+            "True Person",
+            "Imposter",
+            "Identity",
+            "Enrollment"
+        ]
+    },
+    {
+        "Question": "Do I have to activate my credit monitoring immediately?",
+        "Response": "In order for you to receive the full protection being offered to you, we do recommend that you activate your credit monitoring as quickly as you are able to.",
+        "Keywords": [
+            "Activation",
+            "Immediate",
+            "Quick",
+            "Protection",
+            "Enrollment",
+            "Monitor",
+            "Recommend",
+            "Full",
+            "Coverage",
+            "Benefits"
+        ]
+    },
+    {
+        "Question": "When does the credit monitoring start?\u00a0 Is it effective back to the incident date?",
+        "Response": "Credit Monitoring is effective starting the date that you successfully activated it online. Please remember the online activation is separate from enrollment. Upon enrollment, even if you do not activate your monitoring, you are automatically covered for insurance and identity theft restoration.",
+        "Keywords": [
+            "Start",
+            "Effective",
+            "Activation",
+            "Enrollment",
+            "Coverage",
+            "Insurance",
+            "Restoration",
+            "Incident",
+            "Membership",
+            "Identity"
+        ]
+    },
+    {
+        "Question": "You said that you would not need my Social Security number for enrollment, but I was asked for it to set up my credit monitoring.",
+        "Response": "Enrolling in the IDX, A ZeroFox Company identity protection program and activating the monitoring service are actually two separate processes. IDX does not require a Social Security number to enroll in our program; we request only basic contact information. However, to activate the credit monitoring service, we do require additional information for security measures, such as a Social Security number and date of birth, to confirm your identity and information for credit monitoring purposes.",
+        "Keywords": [
+            "Enrollment",
+            "SSN",
+            "Activation",
+            "Monitoring",
+            "Process",
+            "Security",
+            "Confirm",
+            "Identity",
+            "Contact",
+            "Basic Info"
+        ]
+    },
+    {
+        "Question": "Am I completely enrolled/activated in the system?",
+        "Response": "There are two steps to receive the full benefits of your IDX, A ZeroFox Company identity protection membership 1) \u2013 Enrollment into the membership using the enrollment code and 2) \u2013 Activating the credit monitoring/CyberScan portion of services.",
+        "Keywords": [
+            "Enrolled",
+            "Activated",
+            "Membership",
+            "Full",
+            "Benefits",
+            "Enrollment",
+            "CyberScan",
+            "Process",
+            "Steps",
+            "Protection"
+        ]
+    },
+    {
+        "Question": "Am I still fully covered if I don\u2019t activate credit monitoring?",
+        "Response": "Yes, we have members that do not wish to activate the monitoring piece of their membership. You will still have complete recovery and the $1,000,000 of insurance reimbursement [for any out-of-pocket expenses].",
+        "Keywords": [
+            "Fully",
+            "Covered",
+            "Monitoring",
+            "Insurance",
+            "Reimbursement",
+            "Recovery",
+            "Activation",
+            "Opt-out",
+            "Membership",
+            "Expenses"
+        ]
+    },
+    {
+        "Question": "I have an enrollment in IDX, A ZeroFox Company identity protection services from a previous breach. Can I enroll twice?",
+        "Response": "You can enroll twice but will not be able to use the same email on more than one membership. If you\u2019d like to enroll, please use a different email on your secondary membership.",
+        "Keywords": [
+            "Duplicate",
+            "Member",
+            "Plan",
+            "Existing",
+            "Email",
+            "Membership",
+            "Enroll",
+            "Twice",
+            "Previous",
+            "Breach"
+        ]
+    },
+    {
+        "Question": "Why do you require so much information?",
+        "Response": "The information that will be asked is all information already available to the credit bureau. The system uses this information as a security measure to help ensure that they are communicating or dealing with the true person and not an imposter.",
+        "Keywords": [
+            "Require",
+            "Information",
+            "Bureau",
+            "Security",
+            "Person",
+            "Imposter",
+            "Verify",
+            "Confirm",
+            "Credit",
+            "Personal Info"
+        ]
+    },
+    {
+        "Question": "Is it safe to provide my confidential information to your website or any of the credit bureaus?",
+        "Response": "Yes, when activating your monitoring, our online system will require you to confirm your identity. The information that will be asked is information already available to the credit bureaus. This information is used simply as a security measure to help ensure that they are speaking or dealing with the true person and not an imposter.",
+        "Keywords": [
+            "SSN",
+            "Confidential",
+            "PII",
+            "Secure",
+            "Website",
+            "Bureau",
+            "Identity",
+            "Monitoring",
+            "Privacy",
+            "Data"
+        ]
+    },
+    {
+        "Question": "Can you activate the monitoring portion of the service?",
+        "Response": "For security purposes, we encourage you to activate your own credit monitoring. This helps to ensure that only you have access to your personal and financial information.",
+        "Keywords": [
+            "Activate",
+            "Monitoring",
+            "Service",
+            "Help",
+            "Security",
+            "Financial",
+            "Personal",
+            "Credit",
+            "Assist",
+            "Access"
+        ]
+    },
+    {
+        "Question": "Do I have to activate my monitoring service right away?",
+        "Response": "We recommend activating your monitoring as soon as possible. Delaying activation may reduce the effectiveness of monitoring or delay identification of potential issues.",
+        "Keywords": [
+            "Activation",
+            "Monitoring",
+            "Immediate",
+            "Recommend",
+            "Delay",
+            "Issues",
+            "Identification",
+            "Effective",
+            "Coverage",
+            "Security"
+        ]
+    },
+    {
+        "Question": "Will I receive confirmation once my monitoring service is activated?",
+        "Response": "Yes, you will receive a confirmation email once your monitoring service has been successfully activated.",
+        "Keywords": [
+            "Confirmation",
+            "Activation",
+            "Email",
+            "Monitoring",
+            "Service",
+            "Notification",
+            "Success",
+            "Alert",
+            "Verification",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "How long does it take to activate the monitoring service?",
+        "Response": "Activation is usually immediate once you have completed the required steps and confirmed your identity.",
+        "Keywords": [
+            "Immediate",
+            "Activation",
+            "Service",
+            "Monitoring",
+            "Steps",
+            "Confirm",
+            "Identity",
+            "Process",
+            "Quick",
+            "Enrollment"
+        ]
+    },
+    {
+        "Question": "Can I transfer my monitoring service to another person?",
+        "Response": "No, monitoring services are tied to the individual who has enrolled and cannot be transferred to another person.",
+        "Keywords": [
+            "Transfer",
+            "Individual",
+            "Non-transferable",
+            "Enrollment",
+            "Membership",
+            "Monitoring",
+            "Personal",
+            "Account",
+            "Restriction",
+            "Coverage"
+        ]
+    },
+    {
+        "Question": "What happens if I forget to activate my monitoring service?",
+        "Response": "If you forget to activate your monitoring, you will still be covered for identity theft restoration and insurance. However, the monitoring portion will not be active until you activate it.",
+        "Keywords": [
+            "Monitoring",
+            "Activation",
+            "Forget",
+            "Coverage",
+            "Insurance",
+            "Restoration",
+            "Identity",
+            "Membership",
+            "Alert",
+            "Reminder"
+        ]
+    },
+    {
+        "Question": "Can I opt-out of the monitoring service after activation?",
+        "Response": "Yes, you can opt-out at any time. However, you may lose certain features such as proactive monitoring alerts.",
+        "Keywords": [
+            "Opt-out",
+            "Activation",
+            "Monitoring",
+            "Features",
+            "Alerts",
+            "Membership",
+            "Choice",
+            "Deactivate",
+            "Service",
+            "Loss"
+        ]
+    },
+    {
+        "Question": "How will I know if there is an issue detected by the monitoring service?",
+        "Response": "You will receive an alert via email or the mobile app if any potential issues are detected.",
+        "Keywords": [
+            "Alert",
+            "Detection",
+            "Issue",
+            "Notification",
+            "Email",
+            "Mobile App",
+            "Monitoring",
+            "Service",
+            "Proactive",
+            "Security"
+        ]
+    },
+    {
+        "Question": "Can I update my personal information after enrollment?",
+        "Response": "Yes, you can update your personal information at any time through your online account or by contacting customer support.",
+        "Keywords": [
+            "Update",
+            "Personal",
+            "Information",
+            "Enrollment",
+            "Online",
+            "Support",
+            "Changes",
+            "Account",
+            "Service",
+            "Contact"
+        ]
+    },
+    {
+        "Question": "What should I do if I experience issues during the activation process?",
+        "Response": "If you experience any issues, contact customer support for assistance.",
+        "Keywords": [
+            "Issues",
+            "Activation",
+            "Process",
+            "Support",
+            "Assistance",
+            "Contact",
+            "Troubleshoot",
+            "Help",
+            "Service",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "Will activating the monitoring service impact my credit score?",
+        "Response": "No, activating the monitoring service does not affect your credit score.",
+        "Keywords": [
+            "Activation",
+            "Monitoring",
+            "Credit Score",
+            "Impact",
+            "Service",
+            "Membership",
+            "Security",
+            "Information",
+            "Assurance",
+            "Identity"
+        ]
+    },
+    {
+        "Question": "Can I use the monitoring service on multiple devices?",
+        "Response": "Yes, the monitoring service can be accessed from multiple devices using your account credentials.",
+        "Keywords": [
+            "Multiple",
+            "Devices",
+            "Access",
+            "Credentials",
+            "Monitoring",
+            "Service",
+            "Account",
+            "Compatibility",
+            "User",
+            "Platforms"
+        ]
+    },
+    {
+        "Question": "What types of alerts will I receive through the monitoring service?",
+        "Response": "You will receive alerts related to potential identity theft, suspicious activity, or changes to your personal information.",
+        "Keywords": [
+            "Alerts",
+            "Identity",
+            "Theft",
+            "Suspicious",
+            "Activity",
+            "Changes",
+            "Monitoring",
+            "Personal",
+            "Information",
+            "Notification"
+        ]
+    },
+    {
+        "Question": "Can I customize the types of alerts I receive?",
+        "Response": "Yes, you can customize your alert preferences through your account settings.",
+        "Keywords": [
+            "Customize",
+            "Alerts",
+            "Preferences",
+            "Settings",
+            "Monitoring",
+            "Personalize",
+            "Account",
+            "Notification",
+            "Choice",
+            "Features"
+        ]
+    },
+    {
+        "Question": "How do I deactivate the monitoring service?",
+        "Response": "You can deactivate the monitoring service through your online account or by contacting customer support.",
+        "Keywords": [
+            "Deactivate",
+            "Monitoring",
+            "Service",
+            "Online",
+            "Account",
+            "Support",
+            "Contact",
+            "Process",
+            "Membership",
+            "Help"
+        ]
+    },
+    {
+        "Question": "Is there a mobile app for the monitoring service?",
+        "Response": "Yes, there is a mobile app available for both iOS and Android devices that provides access to the monitoring service and alerts.",
+        "Keywords": [
+            "Mobile App",
+            "iOS",
+            "Android",
+            "Monitoring",
+            "Access",
+            "Alerts",
+            "Devices",
+            "Compatibility",
+            "Features",
+            "Service"
+        ]
+    },
+    {
+        "Question": "What happens if my personal information is compromised while using the monitoring service?",
+        "Response": "If your information is compromised, the monitoring service provides restoration support and insurance to assist you in recovering and mitigating the impact.",
+        "Keywords": [
+            "Compromise",
+            "Personal",
+            "Information",
+            "Restoration",
+            "Support",
+            "Insurance",
+            "Recovery",
+            "Assistance",
+            "Identity",
+            "Coverage"
+        ]
+    },
+    {
+        "Question": "How often does the monitoring service check for issues?",
+        "Response": "The monitoring service operates continuously, checking for potential issues on a regular basis.",
+        "Keywords": [
+            "Continuous",
+            "Monitoring",
+            "Service",
+            "Issues",
+            "Regular",
+            "Proactive",
+            "Security",
+            "Identity",
+            "Alerts",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "Can I share the monitoring service with family members?",
+        "Response": "Some plans allow adding family members, while others are limited to individual use. Check your plan details for specifics.",
+        "Keywords": [
+            "Family",
+            "Members",
+            "Plans",
+            "Sharing",
+            "Individual",
+            "Monitoring",
+            "Coverage",
+            "Account",
+            "Details",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "Are there any additional fees for using the monitoring service?",
+        "Response": "Most monitoring services are included in your plan, but certain premium features may have additional fees.",
+        "Keywords": [
+            "Fees",
+            "Premium",
+            "Features",
+            "Monitoring",
+            "Service",
+            "Plan",
+            "Costs",
+            "Charges",
+            "Membership",
+            "Pricing"
+        ]
+    },
+    {
+        "Question": "How secure is the monitoring service?",
+        "Response": "The monitoring service uses industry-standard encryption and secure protocols to protect your personal information and alerts.",
+        "Keywords": [
+            "Secure",
+            "Encryption",
+            "Protocols",
+            "Protection",
+            "Monitoring",
+            "Service",
+            "Information",
+            "Standards",
+            "Alerts",
+            "Security"
+        ]
+    },
+    {
+        "Question": "What happens if I forget my password?",
+        "Response": "If you forget your password, you can use the \"Forgot Password\" link to reset it via email verification.",
+        "Keywords": [
+            "Password",
+            "Reset",
+            "Forgot",
+            "Email",
+            "Verification",
+            "Access",
+            "Account",
+            "Credentials",
+            "Security",
+            "Recovery"
+        ]
+    },
+    {
+        "Question": "Does the monitoring service track dark web activity?",
+        "Response": "Yes, the monitoring service scans the dark web for your personal information to alert you if it is found.",
+        "Keywords": [
+            "Dark Web",
+            "Scans",
+            "Monitoring",
+            "Alerts",
+            "Personal",
+            "Information",
+            "Security",
+            "Identity",
+            "Threats",
+            "Protection"
+        ]
+    },
+    {
+        "Question": "Are my login credentials shared with third parties?",
+        "Response": "No, your login credentials are encrypted and not shared with any third parties.",
+        "Keywords": [
+            "Login",
+            "Credentials",
+            "Third Party",
+            "Encryption",
+            "Security",
+            "Privacy",
+            "Monitoring",
+            "Protection",
+            "Confidential",
+            "Account"
+        ]
+    },
+    {
+        "Question": "How do I change my subscription plan?",
+        "Response": "You can change your subscription plan via your account settings or by contacting customer support.",
+        "Keywords": [
+            "Subscription",
+            "Plan",
+            "Change",
+            "Account",
+            "Settings",
+            "Support",
+            "Contact",
+            "Membership",
+            "Options",
+            "Features"
+        ]
+    },
+    {
+        "Question": "Will I receive a notification if there are no issues?",
+        "Response": "Some services allow you to receive periodic updates, even if no issues are detected, to reassure you that your data is secure.",
+        "Keywords": [
+            "Notification",
+            "Updates",
+            "Issues",
+            "Periodic",
+            "Monitoring",
+            "Data",
+            "Security",
+            "Reassurance",
+            "Alerts",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "Can I cancel my subscription at any time?",
+        "Response": "Yes, you can cancel your subscription at any time through your account settings or by contacting customer support.",
+        "Keywords": [
+            "Cancel",
+            "Subscription",
+            "Anytime",
+            "Account",
+            "Settings",
+            "Support",
+            "Contact",
+            "Membership",
+            "Freedom",
+            "Choice"
+        ]
+    },
+    {
+        "Question": "How do I update my personal information in the monitoring service?",
+        "Response": "Personal information can be updated through your online account by accessing the profile settings section.",
+        "Keywords": [
+            "Update",
+            "Personal",
+            "Information",
+            "Monitoring",
+            "Online",
+            "Account",
+            "Settings",
+            "Profile",
+            "Details",
+            "Changes"
+        ]
+    },
+    {
+        "Question": "Does the monitoring service cover international data breaches?",
+        "Response": "Some services provide international coverage for data breaches, depending on your plan's features and scope.",
+        "Keywords": [
+            "International",
+            "Coverage",
+            "Data Breaches",
+            "Monitoring",
+            "Plan",
+            "Features",
+            "Scope",
+            "Alerts",
+            "Protection",
+            "Global"
+        ]
+    },
+    {
+        "Question": "What should I do if I suspect identity theft despite using the monitoring service?",
+        "Response": "If you suspect identity theft, contact customer support immediately for assistance and utilize the restoration services included in your plan.",
+        "Keywords": [
+            "Identity",
+            "Theft",
+            "Support",
+            "Contact",
+            "Assistance",
+            "Restoration",
+            "Services",
+            "Monitoring",
+            "Plan",
+            "Protection"
+        ]
+    },
+    {
+        "Question": "How can I view my activity and alert history?",
+        "Response": "Your activity and alert history can be viewed through the monitoring service dashboard on your account.",
+        "Keywords": [
+            "Activity",
+            "History",
+            "Alerts",
+            "Dashboard",
+            "Account",
+            "Monitoring",
+            "Service",
+            "Access",
+            "Features",
+            "Records"
+        ]
+    },
+    {
+        "Question": "Are there limits to the types of data monitored?",
+        "Response": "The types of data monitored depend on the plan you choose, with some plans offering more comprehensive monitoring than others.",
+        "Keywords": [
+            "Data",
+            "Monitoring",
+            "Limits",
+            "Types",
+            "Plan",
+            "Comprehensive",
+            "Service",
+            "Features",
+            "Options",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "How long is my data stored in the monitoring service?",
+        "Response": "Data storage policies vary, but most services retain data for as long as your subscription is active.",
+        "Keywords": [
+            "Data",
+            "Storage",
+            "Policies",
+            "Monitoring",
+            "Service",
+            "Subscription",
+            "Duration",
+            "Retention",
+            "Plan",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "What if I move to a different country while using the monitoring service?",
+        "Response": "If you move, update your account details to ensure uninterrupted service. Some plans may require additional adjustments for international compatibility.",
+        "Keywords": [
+            "Move",
+            "Country",
+            "Update",
+            "Account",
+            "Details",
+            "Service",
+            "Monitoring",
+            "International",
+            "Plan",
+            "Adjustments"
+        ]
+    },
+    {
+        "Question": "Are there discounts for students or seniors?",
+        "Response": "Some services offer discounts for students or seniors. Check the website or contact customer support for more details.",
+        "Keywords": [
+            "Discounts",
+            "Students",
+            "Seniors",
+            "Services",
+            "Pricing",
+            "Offers",
+            "Website",
+            "Support",
+            "Membership",
+            "Eligibility"
+        ]
+    },
+    {
+        "Question": "How do I report a technical issue with the monitoring service?",
+        "Response": "Technical issues can be reported through the support section of your account or by contacting the customer service team directly.",
+        "Keywords": [
+            "Report",
+            "Technical",
+            "Issues",
+            "Monitoring",
+            "Service",
+            "Support",
+            "Contact",
+            "Account",
+            "Help",
+            "Assistance"
+        ]
+    },
+    {
+        "Question": "Can I transfer my monitoring service to a new account?",
+        "Response": "Some services allow account transfers under specific conditions. Contact customer support for details.",
+        "Keywords": [
+            "Transfer",
+            "Account",
+            "Monitoring",
+            "Service",
+            "Support",
+            "Contact",
+            "Conditions",
+            "Membership",
+            "Changes",
+            "Features"
+        ]
+    },
+    {
+        "Question": "Are there any additional tools provided with the monitoring service?",
+        "Response": "Many services include additional tools like credit monitoring, fraud resolution resources, or insurance coverage.",
+        "Keywords": [
+            "Tools",
+            "Monitoring",
+            "Credit",
+            "Fraud",
+            "Resources",
+            "Insurance",
+            "Coverage",
+            "Features",
+            "Membership",
+            "Extras"
+        ]
+    },
+    {
+        "Question": "How does the monitoring service protect children\u2019s information?",
+        "Response": "Some plans offer specific features to monitor and protect children\u2019s information, such as child identity theft prevention tools.",
+        "Keywords": [
+            "Children",
+            "Information",
+            "Monitoring",
+            "Protection",
+            "Identity",
+            "Theft",
+            "Tools",
+            "Features",
+            "Plan",
+            "Security"
+        ]
+    },
+    {
+        "Question": "What if I need assistance outside of business hours?",
+        "Response": "Most services offer 24/7 support via phone, email, or live chat to assist you at any time.",
+        "Keywords": [
+            "Assistance",
+            "Business",
+            "Hours",
+            "24/7",
+            "Support",
+            "Contact",
+            "Phone",
+            "Email",
+            "Live Chat",
+            "Help"
+        ]
+    },
+    {
+        "Question": "Who are you?",
+        "Response": "I work for IDX, A ZeroFox Company, we are a data breach and recovery company. We have been hired to help answer questions regarding this incident. We have been provided a substantial amount of information and training to help answer questions. You can also look us up online at www.idx.us.",
+        "Keywords": [
+            "IDX",
+            "ZeroFox",
+            "Data Breach",
+            "Recovery",
+            "Incident",
+            "Training",
+            "Questions",
+            "Assistance",
+            "Online Lookup",
+            "Company Info"
+        ]
+    },
+    {
+        "Question": "Why did we change our brand?",
+        "Response": "We are still the same company. Our new brand reflects the evolution of identity and digital privacy risks everyone faces in our connected world.",
+        "Keywords": [
+            "Brand",
+            "Evolution",
+            "Risks",
+            "Digital",
+            "Privacy",
+            "Identity",
+            "Connected",
+            "World",
+            "Same Company",
+            "Continuity"
+        ]
+    },
+    {
+        "Question": "Was the company sold? Was there a merger?",
+        "Response": "No, we are still owned and operated by the same company.",
+        "Keywords": [
+            "Ownership",
+            "Operation",
+            "No Sale",
+            "No Merger",
+            "Same Company",
+            "Status Quo",
+            "Identity",
+            "Consistency",
+            "Assurance",
+            "Continuity"
+        ]
+    },
+    {
+        "Question": "What changes will you notice now that MyIDCare is IDX, A ZeroFox Company identity protection?",
+        "Response": "There are no changes to your dashboard or to the products and features you receive. You will now log-in at https://app.idx.us/login. Make sure you bookmark in your browser to make it easier. You will now receive your newsletter emails from donotreply@email.idx.us and your monthly, transactional emails from noreply@mg.idx.us.",
+        "Keywords": [
+            "Dashboard",
+            "Login",
+            "Features",
+            "Newsletter",
+            "Transactional",
+            "Emails",
+            "Bookmark",
+            "Access",
+            "Consistency",
+            "IDX Portal"
+        ]
+    },
+    {
+        "Question": "Who do I email if I need help with my IDX, A ZeroFox Company account?",
+        "Response": "We are always happy to help you. Please email care@idx.us and we will respond during our normal business hours of 6 a.m. \u2013 6 p.m. Pacific Time Monday - Friday.",
+        "Keywords": [
+            "Assistance",
+            "Support",
+            "Email",
+            "Care",
+            "IDX",
+            "Response",
+            "Business Hours",
+            "Help",
+            "Customer Care",
+            "Pacific Time"
+        ]
+    },
+    {
+        "Question": "Will my username and password remain the same? What do you need to do?",
+        "Response": "Nothing. Your username and password will remain the same.",
+        "Keywords": [
+            "Username",
+            "Password",
+            "Remain Same",
+            "No Change",
+            "Credentials",
+            "Access",
+            "Security",
+            "Simplicity",
+            "Continuity",
+            "No Action"
+        ]
+    },
+    {
+        "Question": "Can I still connect with you on social media?",
+        "Response": "Absolutely! Please follow us on our @IDXPrivacy Instagram, Facebook and Twitter pages.",
+        "Keywords": [
+            "Social Media",
+            "Instagram",
+            "Facebook",
+            "Twitter",
+            "IDXPrivacy",
+            "Connection",
+            "Digital",
+            "Online",
+            "Engagement",
+            "Outreach"
+        ]
+    },
+    {
+        "Question": "Is my personal data still safe?",
+        "Response": "ABSOLUTELY!",
+        "Keywords": [
+            "Security",
+            "Safety",
+            "Privacy",
+            "Data",
+            "Assurance",
+            "Identity",
+            "Confidence",
+            "Protection",
+            "Guarantee",
+            "Reliability"
+        ]
+    },
+    {
+        "Question": "What is IDX, A ZeroFox Company identity protection?",
+        "Response": "IDX, A ZeroFox Company identity protection is the IDX brand of protection services being provided to you.",
+        "Keywords": [
+            "Identity",
+            "IDX",
+            "ZeroFox",
+            "Protection",
+            "Services",
+            "Brand",
+            "Membership",
+            "Program",
+            "Offering",
+            "Assistance"
+        ]
+    },
+    {
+        "Question": "How do I access my membership?",
+        "Response": "For Online Memberships: You must verify your email address first. Once your email address is confirmed, you will set up your password, and be able to log in. For Offline Memberships: There is no online membership for members without email addresses. If you would like online access to your membership, you can add an email to your membership.",
+        "Keywords": [
+            "Online",
+            "Email",
+            "Verification",
+            "Password",
+            "Offline",
+            "Membership",
+            "Enrollment",
+            "Login",
+            "Accessibility",
+            "Options"
+        ]
+    },
+    {
+        "Question": "I am unable to create my password. Can you help me?",
+        "Response": "For security purposes, your password must meet the following criteria: A minimum of 8 characters, An UPPERCASE letter, A lowercase letter, A Number, A Symbol.",
+        "Keywords": [
+            "Password",
+            "Security",
+            "Criteria",
+            "Character",
+            "Uppercase",
+            "Lowercase",
+            "Number",
+            "Symbol",
+            "Assistance",
+            "Creation"
+        ]
+    },
+    {
+        "Question": "Can you tell me what my login information is?",
+        "Response": "For Online Members: Your User Name would be your email address you used when you registered. The password would have been established at that time. Unfortunately, I do not have access to your password information.",
+        "Keywords": [
+            "Login",
+            "Username",
+            "Password",
+            "Email",
+            "Online Member",
+            "Security",
+            "Credentials",
+            "Registration",
+            "Privacy",
+            "Access Info"
+        ]
+    },
+    {
+        "Question": "What is the Service Agreement I have to accept before enrolling?",
+        "Response": "The Service Agreement provides details of the identity theft program you have been offered including the monitoring services being provided. It describes the terms and conditions of your IDX, A ZeroFox Company identity protection services coverage with IDX.",
+        "Keywords": [
+            "Agreement",
+            "Identity",
+            "Theft",
+            "Monitoring",
+            "Terms",
+            "Conditions",
+            "Program",
+            "Coverage",
+            "Protection",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "Do I have to agree to the Terms of Service?",
+        "Response": "In order to obtain services, you must agree to the terms of service.",
+        "Keywords": [
+            "Terms",
+            "Agreement",
+            "Service",
+            "Obtain",
+            "Membership",
+            "Enrollment",
+            "Conditions",
+            "Consent",
+            "Protection",
+            "Requirement"
+        ]
+    },
+    {
+        "Question": "Why does the Terms of Service refer to resellers?",
+        "Response": "Resellers refers to us, IDX, A ZeroFox Company, which means providing credit monitoring services through the Credit Bureaus.",
+        "Keywords": [
+            "Terms",
+            "Resellers",
+            "Credit",
+            "Monitoring",
+            "Bureaus",
+            "IDX",
+            "Reference",
+            "Explanation",
+            "Service",
+            "Identity"
+        ]
+    },
+    {
+        "Question": "I can\u2019t read my welcome letter/email. Can you provide it in Spanish?",
+        "Response": "I\u2019m sorry, we are unable to provide the welcome letter/email in Spanish, but we could have you speak with a Spanish Speaker if that will help.",
+        "Keywords": [
+            "Spanish",
+            "Language",
+            "Welcome",
+            "Email",
+            "Letter",
+            "Communication",
+            "Assistance",
+            "Translation",
+            "Speaker",
+            "Support"
+        ]
+    },
+    {
+        "Question": "I didn\u2019t receive a confirmation email. Can you resend?",
+        "Response": "You can resend the email to yourself. Please visit https://app.idx.us/login and enter your Username, which is your email address, and enter your password.",
+        "Keywords": [
+            "Confirmation",
+            "Email",
+            "Resend",
+            "Login",
+            "Username",
+            "Password",
+            "Request",
+            "Notification",
+            "Access",
+            "Online"
+        ]
+    },
+    {
+        "Question": "I did not receive my Welcome Letter, can you resend?",
+        "Response": "Your welcome letter should have arrived via postal mail within next 10 business days of enrollment. If it has been more than 10 business days since you enrolled and you have not received it, I can escalate your request.",
+        "Keywords": [
+            "Welcome",
+            "Letter",
+            "Postal",
+            "Enrollment",
+            "Resend",
+            "Request",
+            "Mail",
+            "Confirmation",
+            "10 Days",
+            "Assistance"
+        ]
+    },
+    {
+        "Question": "Can you resend my notification letter?",
+        "Response": "I\u2019m sorry, however, the notification letter cannot be sent again.",
+        "Keywords": [
+            "Notification",
+            "Letter",
+            "Resend",
+            "Unable",
+            "Request",
+            "Email",
+            "Membership",
+            "Assistance",
+            "Restrictions",
+            "Communication"
+        ]
+    },
+    {
+        "Question": "I\u2019m receiving a message indicating my enrollment codes is expired/has already been used. Can you help me enroll?",
+        "Response": "It\u2019s possible a prior enrollment attempt was successful and you are already enrolled. Following enrollment, you will receive an email requesting you to verify the email address.",
+        "Keywords": [
+            "Expired",
+            "Enrollment",
+            "Code",
+            "Message",
+            "Successful",
+            "Already Used",
+            "Assistance",
+            "Verification",
+            "Email",
+            "Notification"
+        ]
+    },
+    {
+        "Question": "What comes with my IDX, A ZeroFox Company identity protection membership?",
+        "Response": "Credit monitoring protection, CyberScan monitoring, Access to the IDX team and online resource center, $1,000,000 for out-of-pocket expenses for confirmed identity theft.",
+        "Keywords": [
+            "Credit",
+            "Monitoring",
+            "CyberScan",
+            "Team",
+            "Resource",
+            "Out-of-Pocket",
+            "Coverage",
+            "Protection",
+            "Features",
+            "Membership"
+        ]
+    },
+    {
+        "Question": "What is credit monitoring?",
+        "Response": "Credit monitoring is a very effective tool for becoming aware of fraudulent activity. Once activated, you\u2019ll be informed of any changes to your credit file such as: New inquiries, New accounts, Late payments, Bankruptcies.",
+        "Keywords": [
+            "Credit",
+            "Monitoring",
+            "Fraud",
+            "Activity",
+            "Awareness",
+            "Alerts",
+            "Inquiries",
+            "Accounts",
+            "Late Payments",
+            "Changes"
+        ]
+    },
+    {
+        "Question": "What is tri-bureau credit monitoring?",
+        "Response": "Tri-bureau credit monitoring will scan your credit file using all three credit bureaus - Equifax, Experian and TransUnion.",
+        "Keywords": [
+            "Tri-Bureau",
+            "Monitoring",
+            "Equifax",
+            "Experian",
+            "TransUnion",
+            "Scanning",
+            "Credit",
+            "File",
+            "Security",
+            "Comprehensive"
+        ]
+    },
+    {
+        "Question": "What is CyberScan?",
+        "Response": "CyberScan detects on-line trading or selling of your personal information. Daily, it scans criminal websites, chat rooms, internet bulletin boards, etc., for the detection of stolen identities.",
+        "Keywords": [
+            "CyberScan",
+            "Online",
+            "Detection",
+            "Stolen Info",
+            "Criminal",
+            "Websites",
+            "Fraud",
+            "Security",
+            "Bulletin Boards",
+            "Scanning"
+        ]
+    },
+    {
+        "Question": "What should I do next?",
+        "Response": "We recommend that you take advantage of the prepaid services that are being offered.",
+        "Keywords": [
+            "Services",
+            "Prepaid",
+            "Recommendation",
+            "Action",
+            "Enrollment",
+            "Membership",
+            "Utilize",
+            "Guidance",
+            "Steps",
+            "Resources"
+        ]
+    },
+    {
+        "Question": "How much does this membership cost?",
+        "Response": "This membership is being provided at no cost to you.",
+        "Keywords": [
+            "Membership",
+            "No Cost",
+            "Free",
+            "Offering",
+            "Enrollment",
+            "Service",
+            "Identity",
+            "Protection",
+            "Savings",
+            "Assurance"
+        ]
+    },
+    {
+        "Question": "What will my confirmation email contain?",
+        "Response": "Your confirmation email will contain a link to verify your email address with.",
+        "Keywords": [
+            "Confirmation",
+            "Email",
+            "Verification",
+            "Link",
+            "Enrollment",
+            "Notification",
+            "Membership",
+            "Access",
+            "Instruction",
+            "Online"
+        ]
+    },
+    {
+        "Question": "What will my Monitoring Activated email contain?",
+        "Response": "It will advise you that your monitoring has been established.",
+        "Keywords": [
+            "Monitoring",
+            "Activated",
+            "Email",
+            "Notification",
+            "Status",
+            "Alert",
+            "Coverage",
+            "Service",
+            "Membership",
+            "Activation"
+        ]
+    },
+    {
+        "Question": "Do I still need to enroll with this membership if I have a membership with a competitor?",
+        "Response": "We always advise that you choose what you\u2019re most comfortable with, however there is no harm in having two memberships working for you.",
+        "Keywords": [
+            "Membership",
+            "Competitor",
+            "Enrollment",
+            "Choice",
+            "Benefits",
+            "Identity",
+            "Protection",
+            "Guidance",
+            "Options",
+            "Assistance"
+        ]
+    },
+    {
+        "Question": "How does the IDX, A ZeroFox Company identity protection services compare to competitors?",
+        "Response": "IDX provides industry leading identity theft protection and monitoring plans. IDX identity protection is the only plan that covers all types of identity theft.",
+        "Keywords": [
+            "IDX",
+            "Industry",
+            "Competitor",
+            "Leading",
+            "Monitoring",
+            "Features",
+            "Plans",
+            "Comprehensive",
+            "Protection",
+            "Identity"
+        ]
+    },
+    {
+        "Question": "Once this membership expires, will I automatically be charged for another year?",
+        "Response": "Once your complementary membership expires, the membership will automatically end.",
+        "Keywords": [
+            "Expiration",
+            "Complementary",
+            "Membership",
+            "End",
+            "No Charge",
+            "Coverage",
+            "Renewal",
+            "Continuation",
+            "Protection",
+            "Options"
+        ]
+    },
+    {
+        "Question": "When my complimentary membership/coverage is up, will I be able to re-enroll in IDX, A ZeroFox Company identity protection and receive the same offerings?",
+        "Response": "Yes, you will be able to re-enroll with us at IDX, A ZeroFox Company.",
+        "Keywords": [
+            "Complimentary",
+            "Coverage",
+            "Re-Enroll",
+            "Offerings",
+            "Membership",
+            "Renewal",
+            "Access",
+            "Continuation",
+            "Identity",
+            "Options"
+        ]
+    },
+    {
+        "Question": "What is the usual cost of the IDX, A ZeroFox Company identity protection service I am enrolling in?",
+        "Response": "IDX offers a variety of programs for which we charge different amounts, starting at $9.95 month.",
+        "Keywords": [
+            "Membership",
+            "Cost",
+            "Pricing",
+            "Plans",
+            "Enrollment",
+            "Variety",
+            "Identity",
+            "Program",
+            "Protection",
+            "Monthly"
+        ]
+    },
+    {
+        "Question": "What protection do individuals have after the service ends?",
+        "Response": "Once your IDX identity protection membership expires, you will have the option to enroll into a self-paid membership.",
+        "Keywords": [
+            "Protection",
+            "Expiration",
+            "Self-Paid",
+            "Option",
+            "Membership",
+            "Identity",
+            "Continuation",
+            "Choice",
+            "Services",
+            "Security"
+        ]
+    },
+    {
+        "Question": "What is a QR code/What is the barcode at the top of my letter?",
+        "Response": "The upper right-hand corner of your letter will contain a QR Code to access the enrollment website.",
+        "Keywords": [
+            "QR Code",
+            "Barcode",
+            "Letter",
+            "Enrollment",
+            "Website",
+            "Corner",
+            "Access",
+            "Information",
+            "Digital",
+            "Scanning"
+        ]
+    },
+    {
+        "Question": "What is Password Detective?",
+        "Response": "Password Detective is a complimentary feature on your account. You may enter a password into the search bar to determine its strength.",
+        "Keywords": [
+            "Password",
+            "Detective",
+            "Complimentary",
+            "Feature",
+            "Strength",
+            "Account",
+            "Security",
+            "Check",
+            "Tool",
+            "Online"
+        ]
+    },
+    {
+        "Question": "What is SocialSentry?",
+        "Response": "SocialSentry actively scans social networks to detect privacy risks and fraudulent activity, leveraging machine learning.",
+        "Keywords": [
+            "SocialSentry",
+            "Social",
+            "Privacy",
+            "Risks",
+            "Fraud",
+            "Networks",
+            "Scanning",
+            "Activity",
+            "Machine Learning",
+            "Detection"
+        ]
+    },
+    {
+        "Question": "Can you help me enroll?",
+        "Response": "Yes.  I can assist with the registration.\n\n[Agents: once they are enrolled, please respond with the following:]\n\n[For Online Members:]\nYou are now enrolled. You will receive an email to confirm your email address, set up your password, and complete the activation for your monitoring.  \n\n[Agents: Offline should not proactively offered; only provided if caller insists.  Please provide the following to any caller requesting to enroll without an email:]\n\nI am able to assist with this but before we proceed, I want to advise you of the limitations and delays associated with this option.  If you enroll without an email address, you will not have access to your account online. You also will not have immediate access to alerts and must wait for a communication regarding any new alerts to be sent via postal mail, which can take from 5-7 business days to reach you. The communication will not contain any specific information about the alert and will require you to call in during business hours for assistance. Taking all this into consideration, would you like to provide an email address for your membership?\n\n[If caller agrees to provide email, follow online user enrollment process.]\n\n[If caller insists they do not have an email for their membership, proceed offline enrollment.]\n\n[For Offline Members]\nYou will receive a Welcome Letter to the address provided in the next 5-7 days. The letter will contain instructions on how you can activate your credit monitoring.\n\n[Agents: If caller insists they need assistance activating credit monitoring because they don\u2019t have access to a computer and would like assistance before the letter is received]\n\n[Agents w/o Admin Console:]\n\nMember will receive the contact number in the Welcome Letter. \n\n[Agents w/ Admin Console:]\nThe activation process takes less than 5 minutes and I am happy to assist you. Would you like me to activate your services? \n\n[Agent: If caller confirms:] \n\nPlease confirm your authorization for us to obtain information from your personal credit profile solely for the purpose of confirming your Identity and for monitoring your credit profile for changes while your membership is active. Do I have your consent to proceed?\n\n[Agent: If caller confirms:] \n\nGreat. Thank you. \nMay I have your DOB? I am pausing the recording to obtain your social security number, please proceed.  \n\nThank you, recording has now resumed.  \n\nThe last step in the process is to answer a few authentication questions to activate your Identity Protection Services. I will read each question, and the multiple-choice answers provided. Some of these questions will not pertain to you but are there for security and identification purposes. Are you ready?\n\n[Once activation is complete:]\n\nCongratulations, your activation is complete. I\u2019m happy that I was able to enroll and activate your services today. Is there anything further I can assist you with?\n\nIs there anything else I can help you with today? ",
+        "Keywords": [
+            "Enrollment",
+            "Registration",
+            "Activation",
+            "Credit monitoring",
+            "Identity protection",
+            "Email requirement",
+            "Offline enrollment",
+            "Authentication",
+            "Welcome letter",
+            "Alerts"
+        ]
+    },
+    {
+        "Question": "What is Identity Theft?",
+        "Response": "The terms identity theft and identity fraud refer to all types of crime in which someone wrongfully obtains and uses another person\u2019s personal data in some way that involves fraud or deception, typically for economic gain.",
+        "Keywords": [
+            "identity",
+            "theft",
+            "fraud",
+            "crime",
+            "personal",
+            "data",
+            "deception",
+            "economic",
+            "gain",
+            "misuse"
+        ]
+    },
+    {
+        "Question": "How can I tell if I am a victim of identity theft?",
+        "Response": "Typically, you would find out that your identity has actually been stolen when you: - Are contacted by a collections department for an account that you have never created. - Discover charges for something you never purchased. - Discover inaccuracies on your credit reports or personal bank accounts.",
+        "Keywords": [
+            "identity",
+            "theft",
+            "victim",
+            "charges",
+            "accounts",
+            "credit",
+            "inaccuracies",
+            "stolen",
+            "discovery",
+            "fraud"
+        ]
+    },
+    {
+        "Question": "What happens if I become a victim?",
+        "Response": "As part of your membership, you have access to the ID Care team that will assist you in determining if you are a victim of fraudulent activity. Please contact us with any suspicious activity so we may assist you. [Agents: if caller is experiencing identity theft, please file an escalation ticket. Assure the callers that an ID Care specialist will contact them back within 1 business day.]",
+        "Keywords": [
+            "victim",
+            "identity",
+            "theft",
+            "fraud",
+            "membership",
+            "assistance",
+            "escalation",
+            "specialist",
+            "contact",
+            "recovery"
+        ]
+    },
+    {
+        "Question": "I\u2019m a victim of ID theft, what do I do?",
+        "Response": "Can you tell me what you are experiencing? [Agents: Please file an escalation ticket with caller\u2019s name, phone, and description of theft issue.] Thank you. I am filing a theft event report for you, and you will hear back from an ID Care specialist within 1 \u2013 2 business days.",
+        "Keywords": [
+            "victim",
+            "identity",
+            "theft",
+            "escalation",
+            "ticket",
+            "report",
+            "contact",
+            "assistance",
+            "recovery",
+            "specialist"
+        ]
+    },
+    {
+        "Question": "When will an ID Care Specialist be assigned to my case?",
+        "Response": "Within 1 hour to 1 business day of submitting a Request Help Ticket, you\u2019ll receive a call from an ID Care Specialist to assist you with your concerns.",
+        "Keywords": [
+            "identity",
+            "theft",
+            "recovery",
+            "turnaround",
+            "specialist",
+            "case",
+            "assignment",
+            "support",
+            "contact",
+            "ticket"
+        ]
+    },
+    {
+        "Question": "What is an ID Care Specialist?",
+        "Response": "If you become a victim of identity theft, an ID Care Specialist will manage your case from beginning to end. Your specialist does the work so you can remain productive at work and at home. They will assist with disputing all fraudulent charges, contact affected merchants, deal with collection agencies, and will work 100% on your behalf, to completely restore your identity. Your specialist will be your main contact and source of information during this time.",
+        "Keywords": [
+            "specialist",
+            "identity",
+            "theft",
+            "recovery",
+            "case",
+            "fraudulent",
+            "dispute",
+            "contact",
+            "assistance",
+            "restore"
+        ]
+    },
+    {
+        "Question": "Does IDX, A ZeroFox Company identity protection guarantee I will not be responsible for fraudulent charges to my personal accounts as a result of an identity theft incident?",
+        "Response": "In most recovery cases, all charges are reversed for the victim and no losses are incurred. Banks are bound by many federal laws that protect you. In some cases, \u201ctime limits\u201d for fraud to be reported may be imposed. For this reason, we cannot guarantee that victims won\u2019t be liable for certain charges. To help avoid this, we recommend that you monitor your accounts regularly and review their account policies.",
+        "Keywords": [
+            "identity",
+            "protection",
+            "guarantee",
+            "fraud",
+            "charges",
+            "recovery",
+            "victim",
+            "accounts",
+            "monitor",
+            "laws"
+        ]
+    },
+    {
+        "Question": "Can I still become a victim of identity theft even if I am enrolled in IDX, A ZeroFox Company identity protection?",
+        "Response": "Unfortunately, there is no 100% foolproof way to prevent identity theft. The benefit of having this protection is that it provides you with prevention tools, monitoring services, and additional support you would not have access to. Additionally, if you become a victim, IDX, A ZeroFox Company will take care of you.",
+        "Keywords": [
+            "identity",
+            "theft",
+            "victim",
+            "protection",
+            "prevention",
+            "tools",
+            "monitoring",
+            "services",
+            "support",
+            "risk"
+        ]
+    },
+    {
+        "Question": "What does IDX, A ZeroFox Company identity protection do to help my current accounts?",
+        "Response": "If you are particularly concerned about your personal accounts, we recommend you call your financial institutions holding these accounts and let them know of your concerns. They will be able to guide you with the processes they have in place to keep their customers safe.",
+        "Keywords": [
+            "identity",
+            "protection",
+            "accounts",
+            "financial",
+            "institutions",
+            "concerns",
+            "guidance",
+            "safe",
+            "security",
+            "process"
+        ]
+    },
+    {
+        "Question": "Can/should I change my Social Security number?",
+        "Response": "It is nearly impossible to change your SSN, and it will likely harm you more than help you. Not only will you lose all of your credit history and have a more difficult time building it up again, the old number is still connected to you in some ways. We do NOT recommend trying to change your Social Security number.",
+        "Keywords": [
+            "Social",
+            "Security",
+            "number",
+            "change",
+            "credit",
+            "history",
+            "loss",
+            "harm",
+            "connection",
+            "difficulty"
+        ]
+    },
+    {
+        "Question": "What happens if an identity theft occurs after my free coverage expires?",
+        "Response": "In cases where an individual reports an incident believed to be related to the breach, the facts will be considered on a case-by-case basis.",
+        "Keywords": [
+            "identity",
+            "theft",
+            "coverage",
+            "expires",
+            "breach",
+            "report",
+            "incident",
+            "case",
+            "basis",
+            "facts"
+        ]
+    },
+    {
+        "Question": "I\u2019ve received the letter stating my credit card number may have been compromised. What should I do now?",
+        "Response": "If you have not already done so, call your credit card issuer and tell them that you have been advised that your cardholder information may have been compromised, and ask that your credit card be reissued.\u00a0 Getting a new card issued is the simplest and most effective way to prevent future fraud.\n\nIn addition to reissuing the credit card, you should review your account and file a dispute(s) with the issuing financial institution regarding any fraudulent activity.\u00a0 ",
+        "Keywords": [
+            "compromised credit card",
+            "fraud protection",
+            "fraud alert",
+            "financial institution",
+            "security monitoring",
+            "card fraud",
+            "recovery actions",
+            "compromise resolution",
+            "contact financial institution",
+            "fraud prevention"
+        ]
+    },
+    {
+        "Question": "Which card of mine was affected?",
+        "Response": "It will be the card you used with Change Healthcare. For security reasons, we have not been provided the specific credit card number.",
+        "Keywords": [
+            "credit card affected",
+            "card identification",
+            "account verification",
+            "fraud detection",
+            "impacted card",
+            "tracking",
+            "affected account",
+            "compromised card",
+            "card type",
+            "fraud alert"
+        ]
+    },
+    {
+        "Question": "Will IDX, A ZeroFox Company call on my behalf?",
+        "Response": "For security reasons and liability, the account holder must contact the financial institution directly as the relationship is between you and them. The financial institution will work directly with you to process the request to cancel the card to ensure all charges are accurate and corrected as necessary.\u00a0 ",
+        "Keywords": [
+            "IDX",
+            "ZeroFox",
+            "company representative",
+            "fraud assistance",
+            "contact services",
+            "call support",
+            "fraud protection",
+            "third-party assistance",
+            "fraud monitoring",
+            "service provider"
+        ]
+    },
+    {
+        "Question": "What am I liable for if my credit card is used fraudulently?",
+        "Response": "For credit cards, maximum liability under federal law for unauthorized use with a credit card is $50, and the larger card brands have \"zero liability\" policies. Moreover, if you report the loss before your credit cards are used, the Fair Credit Billing Act says the card issuer cannot hold you responsible for any unauthorized charges.\u00a0 ",
+        "Keywords": [
+            "credit card fraud",
+            "liability",
+            "financial responsibility",
+            "unauthorized charges",
+            "fraud protection laws",
+            "coverage",
+            "fraud liability",
+            "chargeback",
+            "legal responsibility",
+            "fraud claims"
+        ]
+    },
+    {
+        "Question": "Does this mean that I have fraud on my account?",
+        "Response": "Not necessarily. Among the list of card numbers we periodically receive, only a few are truly affected. We do recommend that you take the opportunity to review your monthly statement(s) and if you notice any unauthorized charges, you should immediately contact the financial institution that issued the card.\u00a0 Their telephone number should be listed on the back of your credit card.\u00a0 ",
+        "Keywords": [
+            "account fraud",
+            "detection",
+            "fraudulent transactions",
+            "fraud risk",
+            "credit monitoring",
+            "financial fraud",
+            "fraud investigation",
+            "suspicious activity",
+            "account alert",
+            "fraud status"
+        ]
+    },
+    {
+        "Question": "What if a fraudulent transaction clears my account and I do not have enough money to pay my bills?",
+        "Response": "As soon as you discover any fraudulent or suspicious activity in your account, you should immediately contact the financial institution that issued the credit card.\u00a0 Request that your card be blocked from further use as well as cancelling the card. File a dispute regarding the unauthorized activity and continue to monitor your account.\u00a0 ",
+        "Keywords": [
+            "fraudulent transaction",
+            "bill payment",
+            "insufficient funds",
+            "credit card fraud",
+            "financial hardship",
+            "account overdraft",
+            "unpaid bills",
+            "fraud resolution",
+            "emergency support",
+            "transaction dispute"
+        ]
+    },
+    {
+        "Question": "What if I have preauthorized debits made to my compromised card number?",
+        "Response": "You should contact the merchant(s) immediately upon receipt of your replacement card(s) and provide them with the new card number and expiration date. ",
+        "Keywords": [
+            "preauthorized debits",
+            "compromised card",
+            "unauthorized charges",
+            "payment disruption",
+            "debit fraud",
+            "recurring payments",
+            "account alert",
+            "payment block",
+            "fraud prevention",
+            "payment recovery"
+        ]
+    },
+    {
+        "Question": "There are other authorized users on my credit card account; does this affect their card(s) too?",
+        "Response": "Yes, all authorized users under the same card account share the same card number. You should notify the other users immediately and inform them to destroy their compromised card. You should ask the financial institution to reissue those cards as well.",
+        "Keywords": [
+            "authorized users",
+            "credit card fraud",
+            "impact",
+            "shared account",
+            "affected parties",
+            "fraud",
+            "cardholder impact",
+            "account sharing",
+            "fraud notification",
+            "user security"
+        ]
+    },
+    {
+        "Question": "Can this information be used to steal my identity?",
+        "Response": "No, the information involved in this incident does not provide enough information for identity theft.\u00a0\u00a0 ",
+        "Keywords": [
+            "identity theft",
+            "compromised information",
+            "personal data",
+            "fraud risk",
+            "stolen identity",
+            "data breach",
+            "identity protection",
+            "fraud prevention",
+            "identity security",
+            "information misuse"
+        ]
+    },
+    {
+        "Question": "Is there anything that I can do to ensure that fraud doesn\u2019t occur on my card?",
+        "Response": "Always know where your card is, and if you misplace it, call the financial institution that issued the card immediately so they can block the card from use. ",
+        "Keywords": [
+            "fraud prevention",
+            "card security",
+            "protection steps",
+            "fraud monitoring",
+            "credit protection",
+            "account safety",
+            "fraud alerts",
+            "secure transactions",
+            "identity protection",
+            "financial security"
+        ]
+    },
+    {
+        "Question": "What should I do regarding my debit/credit card?",
+        "Response": "The first step to take is to contact your financial institution and let them know what has happened. Financial institutions and credit card companies understand that this happens, and they will have their own procedures for protecting compromised accounts. ",
+        "Keywords": [
+            "debit card",
+            "credit card",
+            "fraud prevention",
+            "card protection",
+            "account security",
+            "fraud detection",
+            "account alert",
+            "transaction monitoring",
+            "security measures",
+            "card blocking"
+        ]
+    },
+    {
+        "Question": "Will Change Healthcare be reimbursing me for charges from fraudulent activity?",
+        "Response": "Reporting that your credit card has been compromised, cancelling the credit card and continuing to monitor and report fraudulent activity should prevent further fraudulent activate with the financial institution.\u00a0\u00a0 ",
+        "Keywords": [
+            "Change Healthcare",
+            "reimbursement",
+            "fraud charges",
+            "healthcare fraud",
+            "claims",
+            "financial reimbursement",
+            "fraud resolution",
+            "chargeback",
+            "fraud protection",
+            "healthcare coverage"
+        ]
+    },
+    {
+        "Question": "I have been notified that my financial institution account number/credit card number was compromised.",
+        "Response": "If you are notified that your financial institution account number (or credit card number) is compromised, the best step to take is to contact your financial institution and let them know what has happened. Financial institutions and credit card companies understand that this happens, and they will have their own procedures for protecting compromised accounts. In most cases, they will place an extra password on the account, and you should monitor it carefully for any suspicious activity. In some cases, they may recommend that you close down the affected account and open a new one with a new number.\u00a0\u00a0 \n\nIf you DO discover transactions on your account that you do not recognize, notify your financial institution right away. They will work with you to stop and reverse the damage as long as you contact them quickly. This form of fraud is quite common and is best handled directly with your financial institution. However, if you encounter difficulty in your dealings with your financial institution, please contact us back and we can put you in touch with an ID Care Specialist. \n\n[Agents: Please see the question about fraudulent charges on accounts for more information to provide.]",
+        "Keywords": [
+            "compromised account",
+            "financial institution",
+            "fraud notification",
+            "card security",
+            "account protection",
+            "identity theft",
+            "fraud alert",
+            "account freeze",
+            "transaction review",
+            "fraud report"
+        ]
+    },
+    {
+        "Question": "What should I do if I discover fraudulent charges on my financial institution/checking account?",
+        "Response": "When unauthorized charges are debited from your existing checking, debit or even credit account, it\u2019s a situation that can be handled fairly easily by you and your financial institution. You should notify your financial institution /credit card company of the charges, and they will offer you instructions and necessary documents to fill out. \n\nIf the information that was used was our checking account information, simply canceling the account will not always stop the fraud; it is best to close the entire account and open a new one that has extra password protection. \n\n[Agents: If caller is still worried and doesn\u2019t readily accept the above answer, please provide the following response:]\n\nI will have someone from our IDCare team get back to you to discuss your concerns further. May have the best number to reach you at?\n\n[Agents: Please file an escalation ticket with caller\u2019s name, phone, and description of the concern]",
+        "Keywords": [
+            "fraudulent charges",
+            "checking account",
+            "fraud detection",
+            "account security",
+            "financial recovery",
+            "transaction dispute",
+            "fraud claim",
+            "unauthorized charges",
+            "bank alert",
+            "account protection"
+        ]
+    }
+]

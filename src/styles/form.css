@@ -1,0 +1,213 @@
+/* Button Styling */
+button {
+    display: fixed;
+    /* margin-top: 160px; */
+    width: 380px;
+    left: 30%;
+    line-height: 12px;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    color: white;
+    border: 1px solid white;
+    transition: 0.3s;
+    height: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4c566a;
+    border: 1px solid lime;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Input Styling */
+input {
+    width: 280px;;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+input:focus {
+    border-color: lime;
+}
+
+
+/* Navbar */
+.navbar {
+    height: auto;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    color: white;
+    padding-top: 20px;
+}
+
+.header {
+    margin-bottom: 15px;
+    position: fixed;
+    /* left:40%; */
+    top: 16%;
+    width: 100%;
+}
+
+.container {
+    position: fixed;
+    left: 30%;
+    width: 36%;
+    top: 28%;
+    height: 26%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+    color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.loginForm {
+    width: 100%;
+    left: 0;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+}
+
+.pwtitle {
+    position: fixed;
+    width: 100%;
+    top: 22%;
+    left: 0;
+}
+
+.pwinput {
+    position: fixed;
+    width: 100%;
+    /* left: 20%; */
+    top: 28%;
+}
+
+.label {
+    position: fixed;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: flex;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 25px; /* Increase size */
+    height:25px; /* Increase size */
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    cursor: pointer;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+    z-index: 10;
+    transition: 0.3s;
+    overflow: visible; /* Ensure space for rotation */
+}
+
+.hamburger:active {
+    background-color: lime;
+    /* border: solid 1px lime; */
+    color: #000;
+    box-shadow: 0 0 5x lime;
+}
+
+.hamburger span {
+    display: block;
+    border: 1px solid white;
+    width: 20px;
+    height: 3px;
+    background: white;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Adjusted X state */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px); /* Tweak spacing */
+    background-color: lime;
+    border: solid 1px lime;
+    color: #000;
+    box-shadow: 0 0 8px lime;
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    background-color: lime;
+    border: solid 1px lime;
+    color: #000;
+    box-shadow: 0 0 8px lime;
+}
+
+/* Sliding menu animation */
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px); /* Tweak spacing */
+    background-color: lime;
+    border: solid 1px lime;
+    color: #000;
+    box-shadow: 0 0 8px lime;
+}
+
+/* Home Icon Link (Styled like Hamburger button) */
+a.home-link {
+    position: fixed;
+    top: 2px; /* Adjust top distance */
+    right: 4px;/* Adjust right distance */
+    z-index: 80;
+    font-size: 16px; /* Icon size */
+    color: white; /* Icon color */
+    text-decoration: none;
+    width: 25px; /* Increase size */
+    height: 25px; /* Increase size */
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    visibility: hidden;
+    transition: transform 0.3s ease, color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+}
+
+/* Hover effect on Home Link */
+.home-link:hover {
+    color: #5EFF0078; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.home-link:active {
+    color: #5EFF0078; /* Change color on active click */
+    transform: scale(1.1); /* Slightly enlarge on active click */
+}
+
+.home-link i {
+    font-size: 19px; /* Icon size */
+}
