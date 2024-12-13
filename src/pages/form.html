@@ -2,48 +2,87 @@
 <html lang="en-US">
 
 <head>
+  <!-- Meta Tags -->
+  <!-- <meta name="description" content="This is the description of the page"> -->
+  <!-- <meta name="author" content="John Doe"> -->
+  <!-- <meta name="keywords" content="HTML, SEO, Web Development"> -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restricted Access - AGENT ★ ASSISTANT</title>
-  <link rel="stylesheet" href="../styles/form.css">
-  <link href="https://fonts.cdnfonts.com/css/avenir-lt-pro" rel="stylesheet">
-  <link rel="stylesheet" href="../styles/layout.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Page Title -->
+  <title>Please Log In - AGENT★ASSISTANT</title>
+
+  <!-- Fonts, Icons and Stylesheets -->
+  <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/univers">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <script src="../script/script.js"></script>
+  <link rel="stylesheet" href="../styles/form.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+
+  <!-- Scripts -->
+  <script src="../script/script.js" defer></script>
 </head>
 
 <body>
-  <div id="navbar" class="navbar">
-    <div class="hamburger" id="hamburger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
 
-    <a href="../../index.html" class="home-link">
-      <i class="fa fa-home"></i>
-    </a>
-    <div class="titles">
-      <h2>A G E N T ★ A S S I S T A N T</h2>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span id="close" class="close">X</span>
+    <h2 class="modal-title">🚨NOTICE🚨</h2>
+    <p>(Scroll To Bottom)</p>
+    <hr>
+    <p class="modal-text">Hey guys, Justin here. Just wanted to inform everyone that I won't <br>
+      be able to continue developing this tool further.<br>
+      Omni has permanently removed me from their platform for some crap reasons. <br>
+      First, they tried to say that I was located outside of the United States. (see email below) </p>
+    <div class="image-container">
+      <img src="../assets/email1.png" alt="Example Image" class="modal-image">
     </div>
+    <p class="modal-text zoomable-image">After I  replied to that email asking what they were talking about,<br>
+    because I've never left the country. Ever since I started the Etech program, I've never even left Alabama.<br>
+  They didn't respond. Instead, I get an email the next day saying I failed the ID verification process<br>
+  (that they said I passed back in August and haven't had to go through again since then.)</p>
+    <div class="image-container">
+      <img src="../assets/email2.png" alt="Example Image" class="modal-image">
+    </div>
+    <p class="modal-text zoomable-image">So, if you know anyone who could benefit from my developer skills,<br>
+       and wanted to send them my way or reach out to me yourself, you can contact me through the link<br>
+       at the bottom right corner of any page on this site.<br>
+    Thanks Y,all. <br>
+  -Justin</p>
+
   </div>
-  <div class="header">
+</div>
+
+  <div class="navbar" id="navbar">
+    <h2 class="title">A G E N T ★ A S S I S T A N T</h2>
+  </div>
+
+  <header class="header">
     <h1>Welcome</h1>
-    <h4>A password is required to access this tool. Please enter it below.</h4>
-  </div>
+    <h3>A password is required to access this tool.</h3>
+  </header>
 
-  <div class="container">
+  <main class="container">
     <form id="loginForm">
-      <h2 class="pwtitle" >Enter Password</h2>
       <div class="pwinput">
-        <label for="password">Password:</label>
-        <input type="password" id="password" placeholder="Enter Password" required>
+        <h2 class="pwtitle">Enter Password</h2>
+        <input type="password" class="password" id="password" placeholder="&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;&#x25CF;" required>
         <button type="submit">Login</button>
       </div>
+      <div id="errorMessage"></div>
     </form>
-  </div>
+  </main>
+
   <footer>
-    <h5>v.1.3.1</h5>
+    <div class="footer-section footer-left">v.1.5.0</div>
+    <div class="footer-section footer-center">
+      Made with ❤️ in Alabama by Justin.
+    </div>
+    <div class="footer-section footer-right">
+      Need custom software tools built?
+      <a href="mailto:justin@hutzlertech.com" class="footer-link">Let's Talk.</a>
+    </div>
   </footer>
 </body>
 

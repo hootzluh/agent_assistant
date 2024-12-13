@@ -1,13 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGENT★ASSISTANT</title>
+
+  <!-- Fonts, Icons and Stylesheets -->
+  <link href="https://fonts.cdnfonts.com/css/univers" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <link rel="stylesheet" href="./src/styles/navbar.css">
+
+  <!-- Scripts -->
+  <script src="./src/script/script.js" defer></script>
+
+  <!-- Authentication Check -->
   <script>
     (function checkAuthentication() {
       const isAuthenticated = localStorage.getItem("authenticated") === "true";
       const authTime = parseInt(localStorage.getItem("authTime"), 10);
-      const sessionDuration = 2 * 60 * 60 * 1000; // 4 hours in milliseconds
+      const sessionDuration = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
 
       if (!isAuthenticated || !authTime || Date.now() - authTime > sessionDuration) {
         localStorage.removeItem("authenticated");
@@ -16,134 +30,90 @@
       }
     })();
   </script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AGENT ★ ASSISTANT</title>
-  <link rel="stylesheet" href="./src/styles/index.css">
-  <link href="https://fonts.cdnfonts.com/css/avenir-lt-pro" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="stylesheet" href="./src/styles/layout.css">
-  <script src="./src/script/script.js"></script>
 </head>
 
 <body>
-  <div id="navbar" class="navbar">
-    <div class="titles">
-      <h2>A G E N T ★ A S S I S T A N T</h2>
-    </div>
-  </div>
-  <div class="header">
-    <marquee>Check <a class="scroll" href="https://teams.microsoft.com/l/message/19:11690b73178c4631b5a785be8aad6573@thread.tacv2/1733251604720?tenantId=fcbf9571-bb6c-4128-8f52-c3f44e6196be&groupId=7d496639-9181-41e2-be7e-da9b526bd34c&parentMessageId=1733251604720&teamName=Etech%20-%20Security%20Breach&channelName=Chitty%20Chat&createdTime=1733251604720" target="_blank">here</a> for updates.</marquee>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <h2 class="titles">A G E N T ★ A S S I S T A N T</h2>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="header">
+    <marquee>
+      ！！！ 🚨 R E M I N D E R 🚨 ！！！
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; S T A Y &nbsp;&nbsp;&nbsp; A W E S O M E&nbsp;&nbsp;&nbsp; 🙂&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ！！！ 🚨 R E M I N D E R 🚨 ！！！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I s&nbsp;&nbsp;&nbsp; Y o u r&nbsp;&nbsp;&nbsp; 🟢 C I R C L E 🟢&nbsp;&nbsp;&nbsp; G R E E N ?&nbsp;&nbsp;&nbsp;&nbsp;🤔 🤔 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; W h a t&nbsp;&nbsp;&nbsp; A b o u t&nbsp;&nbsp;&nbsp; Y o u r &nbsp;&nbsp;&nbsp; <i class="fa fa-phone" style="color:lime"></i> P H O N E ? <i class="fa fa-phone"
+        style="color:lime"></i>&nbsp;&nbsp;&nbsp;&nbsp;🤔 🤔 &nbsp;&nbsp;&nbsp;&nbsp; R e m e m b e r , &nbsp;&nbsp;&nbsp;N o&nbsp;&nbsp;&nbsp; G r e e n&nbsp;&nbsp;&nbsp; {<span> $ $ $ </span>}&nbsp;&nbsp;&nbsp; I f&nbsp;&nbsp;&nbsp; <i class="fa fa-phone" style="color:lime"></i> T h e y 🟢&nbsp;&nbsp;&nbsp; A i n ' t&nbsp;&nbsp;&nbsp; G r e e n ,&nbsp;&nbsp;&nbsp; Y ' a l l .&nbsp;&nbsp;&nbsp;&nbsp; 🤑&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;！！！ 🚨 R E M I N D E R 🚨 ！！！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H a v e&nbsp;&nbsp;&nbsp; Y o u&nbsp;&nbsp;&nbsp; C h e c k e d&nbsp;&nbsp;&nbsp; Y o u r&nbsp;&nbsp;&nbsp; 📧 O m n i&nbsp;&nbsp;&nbsp; E m a i l 📧&nbsp;&nbsp;&nbsp; T o d a y ?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;！！！ 🚨 R E M I N D E R 🚨 ！！！&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;H a v e&nbsp;&nbsp;&nbsp; Y o u&nbsp;&nbsp;&nbsp; C h e c k e d&nbsp;&nbsp;&nbsp; Y o u r&nbsp;&nbsp;&nbsp;  📆 S h i f t s 📆&nbsp;&nbsp;&nbsp; i n&nbsp;&nbsp;&nbsp; H u m a n i t y&nbsp;&nbsp;&nbsp; T o d a y ?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </marquee>
     <h1>Dashboard</h1>
-    <h3>Select a tool below. </h3>
-  </div>
+    <h3>Select a tool below.</h3>
+  </header>
 
-<div class="container">
-  <div class="parent">
+  <!-- Main Content Section -->
+  <main class="container">
+    <div class="parent">
+      <!-- Walk to Work -->
+      <a href="#" class="div1"
+        data-tooltip="Just starting a shift? Then this is where you need to start to make sure you're prepared for the day!">Walk
+        to Work<br>(Start Here if you are beginning your first shift for the day)
+        <span class="notice2">**Delayed Indefinitely**</span></a>
 
-    <a href="./src/pages/search.html"
-      target="_blank"
-      class="div1"
-      title="Quickly search the FAQs to assist with issues.">
-      FAQ Search Tool
-    </a>
+      <!-- FAQ Search & Solve Tool -->
+      <a href="./src/pages/search.html" target="_blank" class="div2"
+        data-tooltip="Quickly search the FAQs to assist with answering caller's questions.">FAQ Search & Solve Tool</a>
 
-    <a href="./src/pages/NATO.html"
-      target="_blank"
-      class="div2"
-      title="A tool that helps with NATO Phonetics.">
-      NATO Phonetics Tool
-    </a>
+      <!-- Get Assistance Tool -->
+      <a href="./src/pages/help.html" target="_blank" class="div3"
+        data-tooltip="Get assistance with a caller's issue, requesting an escalation, or if you need help with one of your tools.">Get Assistance Tool</a>
 
-    <a href="#"
-    class="div3"
-    title="Coming Soon! - A walk-through guide to ensure you ace the call flow.">
-    Coming Soon! - Call Flow Guide Tool
-    </a>
-    <!-- target="_blank" -->
+      <!-- Call Flow Guide Tool -->
+      <a href="#" class="div4" data-tooltip="A walk-through guide to ensure you ace the call flow.">Call Flow Guide
+        Tool<span class="notice2">**Delayed Indefinitely**</span></a>
 
-    <a href="https://teams.microsoft.com/l/channel/19%3A26b6c65853784081bb5caa2b70a657b6%40thread.tacv2/Job%20Aids?groupId=7d496639-9181-41e2-be7e-da9b526bd34c&tenantId=fcbf9571-bb6c-4128-8f52-c3f44e6196be"
-      target="_blank"
-      class="div4"
-      title="If you need a particular job aid, you can bet it will be here! Opens the Job Aids channel in teams for now while a resource repository is in the works.">
-      Job Aids Hub
-    </a>
+      <!-- NATO Phonetics Tool -->
+      <a href="./src/pages/NATO.html" target="_blank" class="div5"
+        data-tooltip="A tool that helps with spelling using NATO Phonetics.">NATO
+        Phonetics Tool</a>
 
-    <a href="#"
-    class="div5"
-    title="Click here if you need assistance with a caller's issue or need to request an escalation.">
-    Get Assistance
-  </a>
-  <!-- target="_blank" -->
+      <!-- Grupo Phone Tool -->
+      <a href="https://extapp.etechcti.com/Agentux" target="_blank" class="div6"
+        data-tooltip="Ready to work? Click here to open the phone tool.">
+        Grupo Phone Tool
+      </a>
 
-    <a href="#"
-      class="div6"
-      title="Coming Soon! - A visual aid tool that walks you through the process of various tasks, step-by-step.">
-      Coming Soon! - Walkthroughs Tool
-    </a>
-    <!-- target="_blank" -->
+      <!-- Walkthroughs Tool -->
+      <a href="#" class="div7" data-tooltip="A visual aid tool for step-by-step guidance.">
+        Walkthroughs Tool<br><span class="notice2">**Delayed Indefinitely**</span>
+      </a>
 
-    <a href="https://extapp.etechcti.com/Agentux"
-      target="_blank"
-      class="div7"
-      title="Ready to get to work? Click here to open the phone tool.">
-      Grupo Phone Tool
-    </a>
 
-    <a href="https://app.powerbi.com/view?r=eyJrIjoiMmNkNjJhNWEtZTY2NC00ODJmLWFlMzQtYWIyYmMzODlkOWIyIiwidCI6ImZjYmY5NTcxLWJiNmMtNDEyOC04ZjUyLWMzZjQ0ZTYxOTZiZSIsImMiOjZ9"
-      target="_blank"
-      class="div8"
-      title="Want to check your earnings? Click here. Hours worked may be delayed in appearing - be patient.">
-      GBA Earnings Report
-    </a>
+      <!-- Feedback Survey -->
+      <a href="https://forms.gle/uFMD8teLqUZtWyYz6" class="div8" data-tooltip="Click Here to take a survey regarding your experience and opinions regarding the Agent★Assistant! Your feedback is greatly appreciated!">Agent★Assistant <br>Feedback Survey</a>
 
-    <a href="#"
-    class="div9"
-    title="More tools are under development. Stay tuned!">
-    - - -
-  </a>
-  <!-- target="_blank" -->
+      <!-- Useful Links -->
+      <a href="#" class="div9" data-tooltip="Find links to useful job aids, work tools and other resources here.">Useful
+        Links<span class="notice2">**Delayed Indefinitely**</span></a>
 
-    <a href="#"
-    class="div10"
-    title="More tools are under development. Stay tuned!">
-    - - -
-  </a>
-  <!-- target="_blank" -->
-
-    <a href="#"
-    class="div11"
-    title="Coming Soon! - A simple time tracking tool to help ensure you stay within contract guidelines. (Min Weekly Hours: 18, Max Weekly Hours: 40)">
-    Coming Soon! - TickTock: Time Tracking Tool
-  </a>
-  <!-- target="_blank" -->
-
-    <a href="https://microsoft365.com/"
-      target="_blank"
-      class="div12"
-      title="Click here to open the Microsoft 365 Portal. (formerly the Office Portal)">
-      Microsoft 365 (Office) Portal
-    </a>
-
-    <a href="https://omniinteractions.humanity.com/app/dashboard/"
-    target="_blank"
-    class="div13"
-    title="Click here to check, pick up and drop your scheduled shifts.">
-    Humanity (Scheduling Tool)
-    </a>
-
-    <a href="https://mail.omnigba.com/"
-      target="_blank"
-      class="div14"
-      title="Click here to check your Omni Email. (You should be checking this daily)">
-      Zimbra (Omni Email)
-    </a>
+      <!-- TickTock: Time Tracking Tool -->
+      <a href="#" class="div10" data-tooltip="Check Back for Updates!" >
+      <!-- data-tooltip="A time tracking tool to ensure compliance with scheduled adherance guidelines." -->
+        <!-- TickTock: Time Tracking Tool<span class="notice">~ ~ Coming Soon ~ ~</span> -->
+      </a>
 
     </div>
-</div>
+  </main>
 
+  <!-- Footer -->
   <footer>
-    <h5>v.1.3.1</h5>
+    <div class="footer-section footer-left">v.1.5.0</div>
+    <div class="footer-section footer-center">
+      Made with ❤️ in Alabama by Justin.
+    </div>
+    <div class="footer-section footer-right">
+      Need custom software tools built?
+      <a href="mailto:justin@hutzlertech.com" class="footer-link">Let's Talk.</a>
+    </div>
   </footer>
-
 </body>
+
 </html>

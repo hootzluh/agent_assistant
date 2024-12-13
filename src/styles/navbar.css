@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: linear-gradient(#77ff0f3b, #77ff0f35);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    z-index: 99;
+}
+
+.navbar h2 {
+    margin-bottom: 15px;
+    position: relative;
+    /* width: 40%; */
+    /* left: 40%; */
+    top: 5px;
+    margin-top: 0px;
+    font-size: 34px;
+    color: rgba(255, 255, 255, 0.8);
+     /* -webkit-text-stroke-width: 2.25px;
+     -webkit-text-stroke-color:
+    text-shadow: 0 0 35px rgba(255, 255, 255, 4); */
+}
+
+/* Navigation Links */
+.navlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    top: 60px;
+    left: -400px;
+    width: 96%;
+    padding: 20px;
+    background: #2e3440cf;
+    border-bottom: 1px solid white;
+    visibility: hidden;
+    opacity: 0;
+    transition: left 0.5s ease, visibility 0.3s, opacity 0.3s ease;
+    z-index: 10;
+}
+.navlinks.show {
+    left: 0;
+    top: 60px;
+    visibility: visible;
+    opacity: 1;
+}
+.nav-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 45%;
+}
+.nav-column a {
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Navigation Links */
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr repeat(8, 1.5fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+.grid-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    min-height: 50px;
+    width: 100%;
+    z-index: 2555;
+    cursor: pointer;
+}
+.grid-container a.active-link:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 20px lime;
+    cursor: pointer;
+    border: 2px solid lime;
+}
+.grid-container a.current {
+    background-color: black;
+    color: white;
+    border: 2px solid lime;
+    cursor: default;
+    box-shadow: 0 0 20px lime;
+}
+.grid-container a.disabled {
+    color: #ffffff88;
+    border: 2px solid #ffffff88;
+    cursor: default;
+    /* box-shadow: 0 0 20px lime; */
+}
+
+/* Tooltip */
+.grid-container a::before {
+    content: attr(title);
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 4px solid lime;
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    visibility: hidden;
+    word-wrap: normal;
+    width: 800px;
+    transition: opacity 0.2s, transform 0.2s;
+}
+
+.grid-container a:hover::before {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-2px);
+}
+
+/* Grid Elements Layout */
+.grid-container .div1 {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.grid-container .div2 {
+    grid-area: 1 / 2 / 2 / 4;
+}
+
+.grid-container .div3 {
+    grid-area: 1 / 4 / 2 / 6;
+}
+
+.grid-container .div4 {
+    grid-area: 1 / 6 / 2 / 8;
+}
+
+.grid-container .div5 {
+    grid-area: 1 / 8 / 2 / 10;
+}
+
+.grid-container .div6 {
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+.grid-container .div7 {
+    grid-area: 2 / 4 / 3 / 6;
+}
+
+.grid-container .div8 {
+    grid-area: 2 / 6 / 3 / 8;
+}
+
+.grid-container .div9 {
+    grid-area: 2 / 8 / 3 / 10;
+}
+
+/* Hamburger Menu Button */
+.hamburger {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 42px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    padding-left: -13px;
+}
+.hamburger span {
+    display: block;
+    width: 15px;
+    height: 2.85px;
+    background-color: white;
+    margin: 1.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.hamburger:hover {
+    background-color: white;
+    box-shadow: 0 0 10px lime;
+    border: 2px solid lime;
+    cursor: pointer;
+}
+.hamburger:hover span {
+    background-color: black;
+}
+.hamburger.active:hover span {
+    background-color: white;
+}
+.hamburger.active {
+    background-color: black;
+    border-color: lime;
+}
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(4px, 4px);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+}
+
+/* Home Button */
+.home-link,
+.home-link i {
+    position: fixed;
+    right: 45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+}
+.home-link:hover,
+.home-link i:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px lime;
+    border: 2px solid lime;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    background: linear-gradient(#77ff0f3b, #77ff0f35);
+    border-top: 2px solid white;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-left {
+    text-align: left;
+}
+
+.footer-right {
+    text-align: right;
+    margin-right: 25px;
+}
+
+.footer-link {
+    color: lime;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.footer-link:hover {
+    color: #00ff00; /* Slightly brighter lime on hover */
+}
+
+/* footer h4 {
+    position: fixed;
+    text-shadow: 0 0 18px lime;
+    color: lime;
+    color: rgba(255, 255, 255, 0.8);
+    bottom: 5px;
+} */
+
+.notice2 {
+position: fixed;
+z-index: 9999;
+width: 350px;
+height: 20px;
+letter-spacing: 4px;
+border: 2.75px dotted white;
+background: rgba(171, 3, 255, 0.5);
+transform: rotate(9deg);
+}

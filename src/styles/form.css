@@ -1,213 +1,299 @@
-/* Button Styling */
-button {
-    display: fixed;
-    /* margin-top: 160px; */
-    width: 380px;
-    left: 30%;
-    line-height: 12px;
-    padding: 12px;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-    color: white;
-    border: 1px solid white;
-    transition: 0.3s;
-    height: 40px;
-    cursor: pointer;
+/* General Styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Univers", sans-serif;
+  background: #000000E9;
+  color: white;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 
+/* Header Styling */
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 20%;
+  /* width: 90%; */
+  /* left: 5%; */
+  /* margin-bottom: 15px; */
+}
+
+.header h1 {
+  margin-bottom: 0;
+}
+
+.header h3 {
+  margin-top: 0;
+}
+
+/* General Button Styling */
 button:hover {
-    background-color: #4c566a;
-    border: 1px solid lime;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #000000;
+  border: 2px solid lime;
+  color: #FFFFFF box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Input Styling */
-input {
-    width: 280px;;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 20px;
-    margin-top: 15px;
-    background: rgba(255, 255, 255, 0.2);
-    border: 1px solid white;
-    color: white;
-    border-radius: 10px;
-    outline: none;
+button {
+  display: fixed;
+  width: 100%;
+  margin-top: 15px;
+  left: 15%;
+  line-height: 12px;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+
+/* Input Field Styling */
+input.password {
+  position: static;
+  width: 96%;
+  padding: 6px;
+  font-size: 22px;
+  margin: 15px 0 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+  overflow: hidden;
+  transition: all 0.3s;
 }
 
 input::placeholder {
-    color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
 }
 
 input:focus {
-    border-color: lime;
+  border: 2px solid lime;
+  background: #000000 color: #FFFFFF
 }
 
-
-/* Navbar */
-.navbar {
-    height: auto;
-    width: 100%;
-    position: fixed;
-    z-index: 9999;
-    top: 0;
-    left: 0;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid white;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    color: white;
-    padding-top: 20px;
+#loginForm #errorMessage {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  background: #FFFFFF;
+  border: 2px solid red;
+  padding: 7px;
+  position: relative;
+  margin-bottom: 255px;
+  display: hidden;
+  display: none;
+  width: 100%;
+  z-index: 888;
 }
 
-.header {
-    margin-bottom: 15px;
-    position: fixed;
-    /* left:40%; */
-    top: 16%;
-    width: 100%;
-}
-
+/* Container Styling */
 .container {
-    position: fixed;
-    left: 30%;
-    width: 36%;
-    top: 28%;
-    height: 26%;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid white;
-    color: white;
-    padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 33%;
+  width: 28%;
+  height: 22%;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 2px solid white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
 }
 
+/* Login Form Styling */
 .loginForm {
-    width: 100%;
-    left: 0;
-    top:0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 
-.pwtitle {
-    position: fixed;
-    width: 100%;
-    top: 22%;
-    left: 0;
+.container h2 {
+  position: fixed;
+  top: 4%;
+  /*width: 100%; */
+  left: 33.5%;
 }
 
 .pwinput {
-    position: fixed;
-    width: 100%;
-    /* left: 20%; */
-    top: 28%;
+  position: fixed;
+  left: 15%;
+  top: 28%;
+  width: 70%;
+  box-sizing: border-box;
+  height: 100%;
 }
 
-.label {
-    position: fixed;
+.pwtitle {
+  margin-top: 30px;
+}
+background: rgba(10, 10, 10, 0.7);
+backdrop-filter: blur(2px);
+transition: transform 0.8s;
+
+/* Modal overlay */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(2px);
+  transition: transform 0.8s;
+  z-index: 9999; /* Ensure modal is above other elements */
+  justify-content: center;
+  align-items: center; /* Center vertically */
 }
 
-/* Hamburger Menu */
-.hamburger {
-    display: flex;
-    visibility: hidden;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 25px; /* Increase size */
-    height:25px; /* Increase size */
-    border-radius: 50%;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid white;
-    cursor: pointer;
-    position: absolute;
-    top: 9px;
-    left: 10px;
-    z-index: 10;
-    transition: 0.3s;
-    overflow: visible; /* Ensure space for rotation */
+/* Modal content */
+.modal-content {
+  background: rgba(89, 131, 83, 0.9);
+  backdrop-filter: blur(2px);
+  /* margin-top: 90px;*/
+  top: 0;
+  left: 25%;
+  position: fixed;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  text-align: center;
+  max-width: 90%; /* Restrict width to 80% of the viewport */
+  width: auto; /* Let the content dictate the width */
+  height: 70%; /* Prevent touching navbar/footer */
+  overflow-y: auto; /* Enable scrolling for overflowing content */
+  /* position: relative; */
+  opacity: 0; /* Initially transparent */
+  transform: translateY(-40px); /* Start above the view */
+  border: 2px double lime;
+  transition: opacity 0.8s ease, transform 0.8s ease; /* Smooth animation */
+  z-index: 9999;
 }
 
-.hamburger:active {
-    background-color: lime;
-    /* border: solid 1px lime; */
-    color: #000;
-    box-shadow: 0 0 5x lime;
+/* Modal visible state (triggered by JavaScript) */
+.modal.show .modal-content {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Slide into place */
 }
 
-.hamburger span {
-    display: block;
-    border: 1px solid white;
-    width: 20px;
-    height: 3px;
-    background: white;
-    transition: transform 0.3s ease, opacity 0.3s ease;
+/* Close button */
+.close {
+  position: fixed;
+  top: 15px;
+  /* right: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: red;
+  padding: 0;
 }
 
-/* Adjusted X state */
-.hamburger.active span:nth-child(1) {
-    transform: rotate(45deg) translate(6px, 6px); /* Tweak spacing */
-    background-color: lime;
-    border: solid 1px lime;
-    color: #000;
-    box-shadow: 0 0 8px lime;
+.close:hover {
+  background-color: white;
+  color: red;
+  border-color: red;
 }
 
-.hamburger.active span:nth-child(2) {
-    opacity: 0;
-    background-color: lime;
-    border: solid 1px lime;
-    color: #000;
-    box-shadow: 0 0 8px lime;
+/* Title and separator */
+.modal-title {
+  font-size: 34px;
+  letter-spacing: 5px;
+  margin: 0;
+  color: rgba(255, 0, 0, 0.8);
+  -webkit-text-stroke-width: 2.25px;
+  -webkit-text-stroke-color: white;
+  text-shadow: 0 0 35px rgba(10, 10, 5, 0.3);
 }
 
-/* Sliding menu animation */
-.hamburger.active span:nth-child(3) {
-    transform: rotate(-45deg) translate(6px, -6px); /* Tweak spacing */
-    background-color: lime;
-    border: solid 1px lime;
-    color: #000;
-    box-shadow: 0 0 8px lime;
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 21px 0;
 }
 
-/* Home Icon Link (Styled like Hamburger button) */
-a.home-link {
-    position: fixed;
-    top: 2px; /* Adjust top distance */
-    right: 4px;/* Adjust right distance */
-    z-index: 80;
-    font-size: 16px; /* Icon size */
-    color: white; /* Icon color */
-    text-decoration: none;
-    width: 25px; /* Increase size */
-    height: 25px; /* Increase size */
-    border-radius: 50%;
-    padding: 10px;
-    cursor: pointer;
-    visibility: hidden;
-    transition: transform 0.3s ease, color 0.3s ease;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: 1px solid white;
+/* Text content */
+.modal-text {
+  font-size: 18px;
+  margin: 10px 0;
 }
 
-/* Hover effect on Home Link */
-.home-link:hover {
-    color: #5EFF0078; /* Change color on hover */
-    transform: scale(1.1); /* Slightly enlarge on hover */
+/* Image styling */
+.modal-image {
+  max-width: 70%;
+  height: auto;
+  margin: 20px 0;
+  border: 2px double lime;
 }
 
-.home-link:active {
-    color: #5EFF0078; /* Change color on active click */
-    transform: scale(1.1); /* Slightly enlarge on active click */
+/* Zoomed-in style */
+.modal-image.zoomed {
+  transform: scale(2); /* Zoom level */
+  cursor: zoom-out;
 }
 
-.home-link i {
-    font-size: 19px; /* Icon size */
+/* Buttons container */
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 10px 10px 10px;
+}
+
+/* 3D buttons */
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px #0056b3; /* Shadow for 3D effect */
+  transition: all 0.3s ease;
+}
+
+.button:active {
+  box-shadow: 0 2px #0056b3;
+  transform: translateY(2px);
+}
+
+.button:hover {
+  background-color: #0056b3;
 }

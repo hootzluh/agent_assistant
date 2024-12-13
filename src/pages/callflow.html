@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <!-- Meta Tags -->
+  <!-- <meta name="description" content="This is the description of the page"> -->
+  <!-- <meta name="author" content="John Doe"> -->
+  <!-- <meta name="keywords" content="HTML, SEO, Web Development"> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- Page Title -->
+  <title>Call Flow Guide Tool - AGENT★ASSISTANT</title>
+
+  <!-- Fonts, Icons and Stylesheets -->
+  <link href="https://fonts.cdnfonts.com/css/univers" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="../styles/callflow.css">
+  <link rel="stylesheet" href="../styles/navbar.css">
+
+  <!-- Scripts -->
+  <script src="../script/script.js" defer></script>
+
+  <!-- Authentication Check -->
+  <script>
+    (function checkAuthentication() {
+      const isAuthenticated = localStorage.getItem("authenticated") === "true";
+      const authTime = parseInt(localStorage.getItem("authTime"), 10);
+      const sessionDuration = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
+
+      if (!isAuthenticated || !authTime || Date.now() - authTime > sessionDuration) {
+        localStorage.removeItem("authenticated");
+        localStorage.removeItem("authTime");
+        window.location.href = "./src/pages/form.html"; // Redirect to login page
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="navbar" class="navbar">
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <a href="../../index.html" class="home-link">
+      <i class="fa fa-home"></i>
+    </a>
+
+    <div class="titles">
+      <h2>A G E N T ★ A S S I S T A N T</h2>
+    </div>
+
+    <div id="navlinks" class="navlinks">
+      <div class="grid-container">
+
+        <!-- Get Assistance Tool -->
+        <a href="../pages/help.html" class="active-link div1" target="_blank"
+          title="Get assistance with a caller's issue, requesting an escalation or if one of your tools aren't working and it's causing you to miss scheduled shifts.">Get
+          Assistance Tool</a>
+
+        <!-- FAQ Search Tool -->
+        <a href="../pages/search.html" class="active-link div2" target="_blank"
+          title="Quickly search the FAQs to assist with answering caller's questions.">FAQ
+          Search
+          Tool</a>
+
+        <!-- Call Flow Guide Tool -->
+        <a href="#" class="disabled div3" title="A walk-through guide to ensure you ace the call flow.">Call Flow
+          Guide
+          Tool</a>
+
+        <!-- Useful Links -->
+        <a href="#" class="disabled div4"
+          title="Find links to useful job aids, work tools and other resources here.">Useful Links<br>
+          !!DELAYED INDEFINITELY!!</a>
+
+        <!-- Blank -->
+        <a href="#" class="disabled div5" title="Click here for assistance with a caller's issue or escalations."></a>
+
+        <!-- NATO Phonetics Tool -->
+        <a href="../pages/NATO.html" class="active-link div6" target="_blank"
+          title="A tool that helps with spelling using NATO Phonetics.">NATO Phonetics
+          Tool</a>
+
+        <!-- Walkthroughs Tool -->
+        <a href="#" class="disabled div7"
+          title="Coming Soon! - A visual aid tool for step-by-step guidance.">Walkthroughs
+          Tool<br>!!DELAYED INDEFINITELY!!</a>
+
+        <!-- Blank -->
+        <a href="#" class="disabled div8" title="Click here for assistance with a caller's issue or escalations."></a>
+
+        <!-- Blank -->
+        <a href="#" class="disabled div9" title="Click here for assistance with a caller's issue or escalations."></a>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="tabs-container">
+    <div class="tabs">
+      <button class="tab" data-step="1">Call Flow Guide</button>
+      <button class="tab" data-step="2">Call Opening<br>(Steps 1 - 3)</button>
+      <button class="tab" data-step="3">Gather Details<br>(Steps 4 - 7)</button>
+      <button class="tab" data-step="4">Providing Information<br>(Step 8A)</button>
+      <button class="tab" data-step="5">Aiding in Enrollment<br>(Step 8B)</button>
+      <button class="tab" data-step="6">Escalating the Call<br>(Step 8C)</button>
+      <button class="tab" data-step="7">Wrapping Up<br>(Steps 9 - 12)</button>
+      <button class="tab" data-step="8">Proper Hold Procedures<br>(When, Why and How)</button>
+      <button class="tab" data-step="9">Language Line Calls<br>(Need an Interpreter?)</button>
+      <button class="tab" data-step="10">Call Flow Checklist<br>(Maximize Your Metrics)</button>
+    </div>
+
+    <div class="content-container">
+      <div class="step-content" data-step="1">
+        <div class="navigation-header">
+          <button class="back-button" disabled>Back</button>
+          <h1 class="tab-title">Call Flow Guide</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Introduction to the Commercial Call Flow</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="2">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Call Opening (Steps 1 - 3)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Call Opening: How to Start Your Calls</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="3">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Gather Details (Steps 4 - 7)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Gather Details: Know what Information to Gather and Where to Find It</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="4">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Providing Information (Step 8A)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Providing Information: Answering Questions and Providing Information</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="5">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Aiding in Enrollment (Step 8B)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Aiding in Enrollment: Walkthrough of the Enrollment Process</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="6">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Escalating the Call (Step 8C)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Escalating the Call: How to Handle Issues That Are Beyond Your Scope of Support</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="7">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Wrapping Up (Steps 9 - 12)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Wrapping Up: How to Close Out Your Calls</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="8">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Proper Hold Procedures (When, Why, and How)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Hold Please: Learn the Proper Way and Appropriate Times to Place a Call on Hold</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="9">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Language Line Calls (Need an Interpreter?)</h1>
+          <button class="next-button">Next</button>
+        </div>
+        <div class="content-body">
+          <p>Language Line Calls: How and When to Properly Use the Language Line</p>
+        </div>
+      </div>
+
+      <div class="step-content" data-step="10">
+        <div class="navigation-header">
+          <button class="back-button">Back</button>
+          <h1 class="tab-title">Call Flow Checklist (Maximize Your Metrics)</h1>
+          <button class="next-button" disabled>Next</button>
+        </div>
+        <p>A Handy Checklist to Help You Remember the Key Points of the Call Flow.</p>
+        <div class="checklist-container">
+          <ul id="checklist">
+            <li>
+              <input type="checkbox" class="task" id="step1" />
+              <label for="step1">Step 1: Introduction</label>
+              <p>“Thank you for calling IDX, service provider for Change Healthcare. My name is _________. How may I
+                assist you?"</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step2" />
+              <label for="step2">Step 2: Provide Empathy Statement
+              </label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step3" />
+              <label for="step3">Step 3: Provide Willingness to Assist Statement</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step4" />
+              <label for="step4">Step 4: Collect First and Last Name</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step5" />
+              <label for="step5">Step 5: Collect Callback Number</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step6" />
+              <label for="step6">Step 6: Check Special Notes</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step7" />
+              <label for="step7">Step 7: Verify Using Impacted Population</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step8" />
+              <label for="step8">Step 8: Assist the Caller with their Request</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step9" />
+              <label for="step9">Step 9: Recap Everything You Did</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step10" />
+              <label for="step10">Step 10: Offer Additional Assistance</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step11" />
+              <label for="step11">Step 11: Give Hours of Operation</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+            <li>
+              <input type="checkbox" class="task" id="step12" />
+              <label for="step12">Step 12: Brand the Call</label>
+              <p>“Is there anything else I can assist you with today?”</p>
+            </li>
+
+          </ul>
+          <button id="resetButton">Reset</button>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="footer-section footer-left">v.1.5.0</div>
+    <div class="footer-section footer-center">
+      Made with ❤️ in Alabama by Justin.
+    </div>
+    <div class="footer-section footer-right">
+      Need custom software tools built?
+      <a href="mailto:justin@hutzlertech.com" class="footer-link">Let's Talk.</a>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Tab Navigation
+      const tabs = document.querySelectorAll(".tab");
+      const contents = document.querySelectorAll(".step-content");
+      const nextButtons = document.querySelectorAll(".next-button");
+      const backButtons = document.querySelectorAll(".back-button");
+
+      // Function to activate a specific tab and its content
+      function activateTab(step) {
+        // Remove 'active' class from all tabs and content
+        tabs.forEach((tab) => tab.classList.remove("active"));
+        contents.forEach((content) => content.classList.remove("active"));
+
+        // Add 'active' class to the clicked tab and associated content
+        const activeTab = document.querySelector(`.tab[data-step="${step}"]`);
+        const activeContent = document.querySelector(`.step-content[data-step="${step}"]`);
+
+        if (activeTab) activeTab.classList.add("active");
+        if (activeContent) activeContent.classList.add("active");
+
+        // Enable/disable navigation buttons
+        const backButton = activeContent.querySelector(".back-button");
+        const nextButton = activeContent.querySelector(".next-button");
+
+        if (backButton) backButton.disabled = step === 1; // Disable 'Back' on first tab
+        if (nextButton) nextButton.disabled = step === 10; // Disable 'Next' on last tab
+      }
+
+      // Tab click event listeners
+      tabs.forEach((tab) => {
+        tab.addEventListener("click", () => {
+          const step = parseInt(tab.getAttribute("data-step"), 10);
+          activateTab(step);
+        });
+      });
+
+      // Navigation button event listeners
+      nextButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const currentStep = parseInt(document.querySelector(".step-content.active").getAttribute("data-step"), 10);
+          if (currentStep < 10) activateTab(currentStep + 1);
+        });
+      });
+
+      backButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          const currentStep = parseInt(document.querySelector(".step-content.active").getAttribute("data-step"), 10);
+          if (currentStep > 1) activateTab(currentStep - 1);
+        });
+      });
+
+      // Initialize first tab
+      activateTab(1);
+
+      // Checklist Functionality
+      const checklist = document.getElementById("checklist");
+      const resetButton = document.getElementById("resetButton");
+
+      // Toggle completed state with styling
+      checklist.addEventListener("change", (e) => {
+        if (e.target.classList.contains("task")) {
+          const li = e.target.closest("li");
+          const label = li.querySelector("label");
+          const p = li.querySelector("p");
+
+          if (e.target.checked) {
+            label.style.color = "#888"; // Completed label color
+            p.style.color = "#888"; // Completed paragraph color
+          } else {
+            label.style.color = ""; // Reset label color
+            p.style.color = ""; // Reset paragraph color
+          }
+        }
+      });
+
+      // Mark the checkbox as checked or unchecked when li or p is clicked
+      checklist.addEventListener("click", (e) => {
+        const li = e.target.closest("li");
+        if (li) {
+          const checkbox = li.querySelector("input[type='checkbox']");
+          if (checkbox && e.target.tagName !== "INPUT") {
+            checkbox.checked = !checkbox.checked; // Toggle the checkbox state
+            const label = li.querySelector("label");
+            const p = li.querySelector("p");
+
+            if (checkbox.checked) {
+              label.style.color = "#888"; // Completed label color
+              p.style.color = "#888"; // Completed paragraph color
+            } else {
+              label.style.color = ""; // Reset label color
+              p.style.color = ""; // Reset paragraph color
+            }
+          }
+        }
+      });
+
+      // Reset all tasks
+      resetButton.addEventListener("click", () => {
+        const tasks = document.querySelectorAll(".task");
+        tasks.forEach((task) => {
+          task.checked = false; // Uncheck the checkbox
+          const li = task.closest("li");
+          const label = li.querySelector("label");
+          const p = li.querySelector("p");
+
+          label.style.color = ""; // Reset label color
+          p.style.color = ""; // Reset paragraph color
+        });
+      });
+    });
+  </script>
+
+</body>
+
+</html>
